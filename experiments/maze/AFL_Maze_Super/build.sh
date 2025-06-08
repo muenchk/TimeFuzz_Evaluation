@@ -1,0 +1,1 @@
+AFL_DONT_OPTIMIZE=1 AFL_INST_RATIO=100 ../afl-2.51b/afl-clang-fast maze_super.c -o maze_super

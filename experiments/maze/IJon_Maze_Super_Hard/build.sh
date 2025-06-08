@@ -1,0 +1,1 @@
+AFL_DONT_OPTIMIZE=1 AFL_INST_RATIO=100 ../ijon-experimental/afl-clang-fast maze_super_hard.c -o maze_super_hard
