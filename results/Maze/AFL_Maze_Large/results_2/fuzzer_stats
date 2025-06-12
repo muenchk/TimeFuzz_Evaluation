@@ -1,0 +1,27 @@
+start_time        : 1747409971
+last_update       : 1747413570
+fuzzer_pid        : 2779108
+cycles_done       : 1118
+execs_done        : 8073874
+execs_per_sec     : 2779.54
+paths_total       : 44
+paths_favored     : 6
+paths_found       : 43
+paths_imported    : 0
+max_depth         : 12
+cur_path          : 42
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.05%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1747411909
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 8073874
+exec_timeout      : 1000
+afl_banner        : maze_big
+afl_version       : 2.51b
+command_line      : ../afl-2.51b/afl-fuzz -m 200 -t 1000 -i seeds -o results_2 -- ./maze_big
