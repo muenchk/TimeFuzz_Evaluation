@@ -1,0 +1,27 @@
+start_time        : 1748451632
+last_update       : 1748455231
+fuzzer_pid        : 690685
+cycles_done       : 1
+execs_done        : 1048953
+execs_per_sec     : 784.37
+paths_total       : 130
+paths_favored     : 18
+paths_found       : 129
+paths_imported    : 0
+max_depth         : 25
+cur_path          : 121
+pending_favs      : 5
+pending_total     : 86
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.32%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1748455202
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 1048953
+exec_timeout      : 1000
+afl_banner        : maze_super_hard
+afl_version       : 2.51b-ijon
+command_line      : ../ijon-experimental/afl-fuzz -m 200 -t 1000 -i seeds -o results_2 -- ./maze_super_hard
