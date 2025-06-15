@@ -1,0 +1,27 @@
+start_time        : 1746558789
+last_update       : 1746601989
+fuzzer_pid        : 956080
+cycles_done       : 1
+execs_done        : 344233
+execs_per_sec     : 33.49
+paths_total       : 1066
+paths_favored     : 21
+paths_found       : 1065
+paths_imported    : 0
+max_depth         : 5
+cur_path          : 84
+pending_favs      : 0
+pending_total     : 1017
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 7.09%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1746601600
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 344233
+exec_timeout      : 1000
+afl_banner        : smbc
+afl_version       : 2.51b
+command_line      : ../afl-2.51b/afl-fuzz -m 200 -t 1000 -i seeds -o level28_2 -- ./smbc 28
