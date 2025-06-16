@@ -1,0 +1,27 @@
+start_time        : 1747817516
+last_update       : 1747860716
+fuzzer_pid        : 1275838
+cycles_done       : 0
+execs_done        : 746086
+execs_per_sec     : 23.05
+paths_total       : 1517
+paths_favored     : 35
+paths_found       : 1516
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 1234
+pending_favs      : 34
+pending_total     : 1511
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 8.52%
+unique_crashes    : 0
+unique_hangs      : 6
+last_path         : 1747852426
+last_crash        : 0
+last_hang         : 1747828989
+execs_since_crash : 746086
+exec_timeout      : 1000
+afl_banner        : smbc
+afl_version       : 2.51b-ijon
+command_line      : ../ijon-experimental/afl-fuzz -m 200 -t 1000 -i seeds -o level16_3 -- ./smbc 16

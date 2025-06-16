@@ -1,0 +1,4480 @@
+srun: error: NodeNames=ubuntu-test CPUs=90 match no Sockets, Sockets*CoresPerSocket or Sockets*CoresPerSocket*ThreadsPerCore. Resetting CPUs.
+[0;36mafl-fuzz [1;97m2.51b-ijon[0m by <lcamtuf@google.com>
+[1;92m[+] [0mLooks like we're not running on a tty, so I'll be a bit less verbose.[0m
+[1;92m[+] [0mYou have 96 CPU cores and 112 runnable tasks (utilization: 117%).[0m
+[1;93m[!] [1;97mWARNING: [0mNot binding to a CPU core (AFL_NO_AFFINITY set).[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mSetting up output directories...[0m
+importdir: level20_3/importsmax_dir: level20_3/ijon_max[1;94m[*] [0mScanning 'seeds'...[0m
+[1;92m[+] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,orig:a'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;90m    len = 1, map size = 2479, exec speed = 17177 us
+[0m[1;92m[+] [0mAll test cases processed.[0m
+
+[1;93m[!] [1;97mWARNING: [0m[1;91mThe target binary is pretty slow! See docs/perf_tips.txt.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m1 favored, 0 variable, 1 total
+[1;90m       Bitmap range : [0m2479 to 2479 bits (average: 2479.00 bits)
+[1;90m        Exec timing : [0m17.2k to 17.2k us (average: 17.2k us)
+[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #0 (1 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+updated maxmap 11: 28 (len: 1)
+updated maxmap 9: 28 (len: 33)
+updated maxmap 10: 28 (len: 33)
+updated maxmap 9: 2a (len: 62)
+updated maxmap 10: 2a (len: 62)
+updated maxmap 11: 2a (len: 62)
+updated maxmap 9: 2c (len: 58)
+updated maxmap 8: 2a (len: 66)
+updated maxmap 10: 2b (len: 49)
+updated maxmap 11: 2b (len: 49)
+updated maxmap 10: 2c (len: 57)
+updated maxmap 11: 2c (len: 57)
+updated maxmap 9: 2f (len: 50)
+updated maxmap 10: 33 (len: 50)
+updated maxmap 11: 35 (len: 50)
+updated maxmap 8: 2c (len: 44)
+updated maxmap 9: 35 (len: 64)
+updated maxmap 8: 2d (len: 65)
+updated maxmap 10: 38 (len: 72)
+updated maxmap 11: 36 (len: 72)
+updated maxmap 7: 29 (len: 44)
+updated maxmap 8: 35 (len: 70)
+updated maxmap 9: 36 (len: 70)
+updated maxmap 9: 37 (len: 77)
+updated maxmap 10: 39 (len: 77)
+updated maxmap 9: 41 (len: 71)
+updated maxmap 10: 43 (len: 71)
+updated maxmap 11: 3a (len: 61)
+updated maxmap 7: 2a (len: 53)
+updated maxmap 11: 3c (len: 61)
+updated maxmap 8: 3b (len: 69)
+[1;94m[*] [0mFuzzing test case #1 (236 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #2 (236 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 9: 56 (len: 106)
+updated maxmap 10: 51 (len: 106)
+updated maxmap 11: 4c (len: 106)
+updated maxmap 8: 3c (len: 76)
+updated maxmap 11: 50 (len: 77)
+updated maxmap 8: 4b (len: 69)
+updated maxmap 9: 66 (len: 95)
+updated maxmap 10: 54 (len: 95)
+updated maxmap 10: 6c (len: 96)
+updated maxmap 11: 6e (len: 96)
+updated maxmap 8: 4c (len: 71)
+updated maxmap 9: 7a (len: 119)
+updated maxmap 10: 6e (len: 119)
+updated maxmap 8: 68 (len: 107)
+updated maxmap 10: 74 (len: 107)
+updated maxmap 11: 75 (len: 107)
+updated maxmap 9: 7c (len: 124)
+updated maxmap 8: 72 (len: 112)
+updated maxmap 10: 79 (len: 112)
+updated maxmap 9: 81 (len: 112)
+updated maxmap 10: 86 (len: 112)
+updated maxmap 11: 77 (len: 112)
+updated maxmap 9: 8e (len: 133)
+updated maxmap 8: 80 (len: 142)
+updated maxmap 9: 9b (len: 142)
+updated maxmap 10: 99 (len: 142)
+updated maxmap 11: 93 (len: 142)
+updated maxmap 8: 81 (len: 147)
+updated maxmap 9: ac (len: 147)
+updated maxmap 10: 9a (len: 147)
+updated maxmap 11: 94 (len: 147)
+updated maxmap 7: 40 (len: 78)
+updated maxmap 8: 82 (len: 128)
+updated maxmap 8: 8b (len: 133)
+[1;94m[*] [0mFuzzing test case #3 (363 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 5b (len: 80)
+updated maxmap 7: 5e (len: 80)
+updated maxmap 7: 5f (len: 78)
+updated maxmap 7: 61 (len: 79)
+updated maxmap 7: 75 (len: 81)
+updated maxmap 7: 7a (len: 85)
+updated maxmap 6: 67 (len: 78)
+updated maxmap 10: 9b (len: 140)
+updated maxmap 11: 97 (len: 140)
+updated maxmap 8: a3 (len: 135)
+updated maxmap 10: 9e (len: 137)
+updated maxmap 11: a1 (len: 137)
+updated maxmap 6: 6d (len: 80)
+updated maxmap 7: 7b (len: 86)
+updated maxmap 8: b8 (len: 153)
+updated maxmap 9: b9 (len: 153)
+updated maxmap 10: a6 (len: 153)
+updated maxmap 10: b8 (len: 165)
+updated maxmap 11: a5 (len: 145)
+updated maxmap 6: 6e (len: 82)
+updated maxmap 7: 82 (len: 123)
+[1;94m[*] [0mFuzzing test case #4 (421 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #5 (421 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #6 (421 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 70 (len: 82)
+updated maxmap 6: 72 (len: 82)
+updated maxmap 6: 7a (len: 85)
+updated maxmap 6: 7f (len: 87)
+updated maxmap 6: 84 (len: 89)
+updated maxmap 5: 83 (len: 90)
+updated maxmap 11: ac (len: 169)
+updated maxmap 7: 86 (len: 93)
+updated maxmap 5: 84 (len: 89)
+[1;94m[*] [0mFuzzing test case #7 (463 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 8b (len: 96)
+updated maxmap 7: 92 (len: 96)
+updated maxmap 11: b3 (len: 167)
+updated maxmap 5: 89 (len: 95)
+updated maxmap 6: 93 (len: 95)
+updated maxmap 5: 95 (len: 97)
+updated maxmap 6: 98 (len: 97)
+updated maxmap 5: 96 (len: 96)
+updated maxmap 7: 93 (len: 95)
+updated maxmap 7: 9e (len: 104)
+updated maxmap 6: a4 (len: 103)
+updated maxmap 7: a2 (len: 103)
+[1;94m[*] [0mFuzzing test case #8 (499 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 8: c7 (len: 182)
+updated maxmap 9: c3 (len: 182)
+updated maxmap 10: be (len: 182)
+updated maxmap 10: c1 (len: 182)
+updated maxmap 8: d8 (len: 227)
+updated maxmap 9: d2 (len: 203)
+updated maxmap 7: d1 (len: 205)
+updated maxmap 7: d5 (len: 218)
+updated maxmap 10: c2 (len: 218)
+updated maxmap 7: d9 (len: 205)
+updated maxmap 11: b4 (len: 181)
+updated maxmap 10: c3 (len: 188)
+updated maxmap 5: e7 (len: 215)
+updated maxmap 6: e3 (len: 215)
+updated maxmap 7: de (len: 215)
+updated maxmap 8: da (len: 215)
+updated maxmap 9: d3 (len: 239)
+updated maxmap 9: d4 (len: 205)
+updated maxmap 10: c4 (len: 165)
+updated maxmap 6: e7 (len: 173)
+updated maxmap 7: df (len: 173)
+updated maxmap 8: de (len: 171)
+updated maxmap 6: eb (len: 204)
+updated maxmap 7: e2 (len: 173)
+updated maxmap 8: e2 (len: 204)
+updated maxmap 7: e6 (len: 215)
+updated maxmap 8: e3 (len: 215)
+updated maxmap 11: b5 (len: 176)
+updated maxmap 6: fc (len: 176)
+updated maxmap 5: f7 (len: 178)
+updated maxmap 5: ff (len: 210)
+updated maxmap 6: fd (len: 210)
+updated maxmap 7: f8 (len: 210)
+updated maxmap 6: 100 (len: 180)
+[1;94m[*] [0mFuzzing test case #9 (673 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #10 (673 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 5: 101 (len: 220)
+updated maxmap 6: 101 (len: 220)
+updated maxmap 7: 101 (len: 220)
+updated maxmap 7: 102 (len: 210)
+updated maxmap 5: 103 (len: 212)
+updated maxmap 6: 102 (len: 210)
+updated maxmap 5: 105 (len: 210)
+updated maxmap 4: 104 (len: 224)
+updated maxmap 6: 103 (len: 224)
+updated maxmap 5: 106 (len: 213)
+updated maxmap 6: 105 (len: 213)
+updated maxmap 3: 11d (len: 215)
+updated maxmap 4: 114 (len: 215)
+updated maxmap 5: 10f (len: 215)
+updated maxmap 9: d5 (len: 263)
+updated maxmap 3: 11e (len: 224)
+updated maxmap 3: 130 (len: 232)
+updated maxmap 4: 136 (len: 232)
+updated maxmap 5: 13c (len: 232)
+updated maxmap 6: 142 (len: 232)
+updated maxmap 7: 148 (len: 232)
+updated maxmap 8: 14c (len: 232)
+updated maxmap 9: 152 (len: 232)
+updated maxmap 10: 158 (len: 232)
+updated maxmap 2: 136 (len: 216)
+updated maxmap 3: 143 (len: 216)
+updated maxmap 4: 14d (len: 216)
+updated maxmap 5: 157 (len: 216)
+updated maxmap 6: 15e (len: 216)
+updated maxmap 7: 15d (len: 217)
+updated maxmap 8: 160 (len: 217)
+updated maxmap 7: 15e (len: 217)
+updated maxmap 8: 161 (len: 217)
+updated maxmap 7: 160 (len: 216)
+updated maxmap 8: 165 (len: 226)
+updated maxmap 8: 169 (len: 220)
+updated maxmap 7: 162 (len: 221)
+updated maxmap 2: 13b (len: 229)
+updated maxmap 3: 147 (len: 229)
+updated maxmap 4: 151 (len: 229)
+updated maxmap 5: 15b (len: 229)
+updated maxmap 6: 163 (len: 229)
+updated maxmap 9: 15b (len: 216)
+updated maxmap 9: 16b (len: 222)
+updated maxmap 8: 16c (len: 225)
+updated maxmap 9: 171 (len: 225)
+updated maxmap 10: 160 (len: 220)
+updated maxmap 11: 163 (len: 220)
+updated maxmap 2: 13e (len: 214)
+updated maxmap 3: 148 (len: 214)
+updated maxmap 4: 152 (len: 214)
+updated maxmap 1: 133 (len: 220)
+updated maxmap 2: 141 (len: 220)
+updated maxmap 3: 14b (len: 220)
+updated maxmap 4: 155 (len: 220)
+updated maxmap 5: 15f (len: 220)
+updated maxmap 2: 14d (len: 229)
+updated maxmap 3: 157 (len: 229)
+updated maxmap 4: 161 (len: 229)
+updated maxmap 5: 16b (len: 229)
+updated maxmap 6: 175 (len: 229)
+updated maxmap 7: 177 (len: 229)
+updated maxmap 1: 148 (len: 210)
+updated maxmap 10: 161 (len: 225)
+updated maxmap 11: 168 (len: 225)
+updated maxmap 1: 149 (len: 213)
+updated maxmap 2: 14e (len: 213)
+[1;94m[*] [0mFuzzing test case #11 (798 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 9: 182 (len: 235)
+updated maxmap 10: 16a (len: 235)
+updated maxmap 9: 185 (len: 236)
+updated maxmap 10: 16c (len: 236)
+updated maxmap 10: 174 (len: 229)
+updated maxmap 11: 16d (len: 229)
+updated maxmap 8: 172 (len: 236)
+updated maxmap 10: 182 (len: 236)
+updated maxmap 11: 182 (len: 236)
+updated maxmap 7: 17f (len: 237)
+updated maxmap 8: 189 (len: 237)
+updated maxmap 9: 18b (len: 237)
+updated maxmap 1: 14f (len: 229)
+updated maxmap 2: 159 (len: 229)
+updated maxmap 3: 163 (len: 229)
+updated maxmap 4: 16d (len: 229)
+updated maxmap 5: 177 (len: 229)
+updated maxmap 8: 18b (len: 236)
+updated maxmap 6: 176 (len: 229)
+updated maxmap 3: 184 (len: 291)
+updated maxmap 4: 184 (len: 291)
+updated maxmap 5: 183 (len: 291)
+updated maxmap 6: 183 (len: 291)
+updated maxmap 7: 183 (len: 291)
+updated maxmap 10: 183 (len: 291)
+updated maxmap 7: 188 (len: 272)
+updated maxmap 10: 188 (len: 272)
+updated maxmap 11: 183 (len: 229)
+[1;94m[*] [0mFuzzing test case #12 (863 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #13 (864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 8: 18c (len: 272)
+updated maxmap 9: 18c (len: 272)
+updated maxmap 10: 18c (len: 272)
+updated maxmap 1: 183 (len: 280)
+updated maxmap 2: 183 (len: 280)
+updated maxmap 8: 18e (len: 272)
+updated maxmap 9: 18e (len: 272)
+updated maxmap 10: 18e (len: 272)
+updated maxmap 5: 18d (len: 275)
+updated maxmap 6: 18d (len: 275)
+updated maxmap 7: 18d (len: 275)
+updated maxmap 8: 190 (len: 272)
+updated maxmap 9: 190 (len: 272)
+updated maxmap 10: 18f (len: 272)
+updated maxmap 8: 192 (len: 272)
+updated maxmap 9: 194 (len: 272)
+updated maxmap 10: 194 (len: 272)
+updated maxmap 8: 194 (len: 276)
+updated maxmap 9: 196 (len: 272)
+updated maxmap 10: 196 (len: 272)
+updated maxmap 1: 184 (len: 276)
+updated maxmap 2: 184 (len: 276)
+updated maxmap 1: 1b8 (len: 279)
+updated maxmap 2: 1be (len: 279)
+updated maxmap 3: 1c2 (len: 279)
+updated maxmap 4: 1c1 (len: 279)
+updated maxmap 5: 1c2 (len: 279)
+updated maxmap 6: 1c3 (len: 279)
+updated maxmap 7: 191 (len: 279)
+updated maxmap 0: 187 (len: 290)
+updated maxmap 7: 194 (len: 280)
+updated maxmap 8: 198 (len: 272)
+updated maxmap 9: 199 (len: 272)
+updated maxmap 10: 199 (len: 272)
+updated maxmap 8: 199 (len: 272)
+updated maxmap 9: 19a (len: 272)
+updated maxmap 10: 19a (len: 272)
+updated maxmap 8: 19c (len: 272)
+updated maxmap 9: 1a2 (len: 272)
+updated maxmap 10: 1a8 (len: 272)
+updated maxmap 11: 1ac (len: 272)
+updated maxmap 7: 195 (len: 272)
+updated maxmap 11: 1ad (len: 272)
+updated maxmap 8: 19d (len: 272)
+updated maxmap 9: 1a3 (len: 272)
+updated maxmap 10: 1a9 (len: 272)
+updated maxmap 11: 1ae (len: 275)
+updated maxmap 12: 1b1 (len: 275)
+updated maxmap 7: 1a6 (len: 272)
+updated maxmap 8: 1af (len: 272)
+updated maxmap 9: 1b5 (len: 272)
+updated maxmap 10: 1ba (len: 272)
+updated maxmap 11: 1bf (len: 272)
+updated maxmap 12: 1c1 (len: 272)
+updated maxmap 13: 1c1 (len: 272)
+updated maxmap 1: 1ba (len: 272)
+updated maxmap 2: 1c0 (len: 272)
+updated maxmap 7: 1a7 (len: 272)
+updated maxmap 8: 1b0 (len: 272)
+updated maxmap 9: 1b6 (len: 272)
+updated maxmap 11: 1c0 (len: 272)
+updated maxmap 12: 1c2 (len: 272)
+updated maxmap 13: 1c2 (len: 272)
+updated maxmap 7: 1a8 (len: 272)
+updated maxmap 8: 1b1 (len: 272)
+updated maxmap 9: 1b7 (len: 272)
+updated maxmap 10: 1bb (len: 272)
+updated maxmap 11: 1c1 (len: 272)
+updated maxmap 1: 1c6 (len: 272)
+updated maxmap 2: 1cc (len: 272)
+updated maxmap 3: 1cf (len: 272)
+updated maxmap 5: 1c6 (len: 280)
+updated maxmap 6: 1c9 (len: 280)
+updated maxmap 0: 1aa (len: 300)
+updated maxmap 4: 1c2 (len: 277)
+updated maxmap 7: 1ad (len: 272)
+updated maxmap 8: 1b9 (len: 272)
+updated maxmap 9: 1ed (len: 272)
+updated maxmap 10: 1de (len: 272)
+updated maxmap 11: 1d6 (len: 272)
+updated maxmap 8: 1ed (len: 272)
+updated maxmap 1: 1eb (len: 272)
+updated maxmap 2: 1e6 (len: 272)
+updated maxmap 3: 1de (len: 272)
+updated maxmap 7: 1b1 (len: 272)
+updated maxmap 9: 1f2 (len: 272)
+updated maxmap 10: 1e3 (len: 272)
+updated maxmap 11: 1db (len: 272)
+updated maxmap 7: 1b2 (len: 272)
+updated maxmap 1: 1f1 (len: 272)
+updated maxmap 2: 1ec (len: 272)
+updated maxmap 3: 1e4 (len: 272)
+updated maxmap 9: 1f7 (len: 277)
+updated maxmap 10: 1e6 (len: 272)
+updated maxmap 11: 1e0 (len: 272)
+updated maxmap 1: 1f6 (len: 274)
+updated maxmap 1: 1fb (len: 278)
+updated maxmap 2: 1f1 (len: 278)
+updated maxmap 3: 1ea (len: 278)
+updated maxmap 10: 1e7 (len: 272)
+updated maxmap 0: 1c5 (len: 272)
+updated maxmap 12: 1c3 (len: 272)
+updated maxmap 14: 1c3 (len: 272)
+updated maxmap 15: 1c5 (len: 272)
+updated maxmap 10: 1e8 (len: 273)
+updated maxmap 11: 1e2 (len: 273)
+updated maxmap 11: 1e3 (len: 276)
+updated maxmap 8: 1f2 (len: 290)
+updated maxmap 13: 1c3 (len: 272)
+updated maxmap 14: 1c6 (len: 272)
+updated maxmap 10: 1e9 (len: 272)
+updated maxmap 9: 1fe (len: 277)
+updated maxmap 7: 1b5 (len: 275)
+updated maxmap 10: 1ee (len: 275)
+updated maxmap 11: 1e8 (len: 275)
+updated maxmap 2: 1f9 (len: 278)
+updated maxmap 3: 1f2 (len: 278)
+updated maxmap 7: 1bb (len: 272)
+updated maxmap 11: 1ea (len: 272)
+updated maxmap 13: 1c6 (len: 272)
+updated maxmap 14: 1c7 (len: 272)
+updated maxmap 10: 1f0 (len: 274)
+updated maxmap 11: 1eb (len: 272)
+updated maxmap 11: 1ec (len: 273)
+updated maxmap 0: 1c6 (len: 272)
+updated maxmap 9: 204 (len: 289)
+updated maxmap 10: 205 (len: 284)
+updated maxmap 0: 1ca (len: 272)
+updated maxmap 15: 1c9 (len: 272)
+updated maxmap 8: 1f7 (len: 277)
+updated maxmap 5: 1d6 (len: 284)
+updated maxmap 6: 1d5 (len: 284)
+updated maxmap 7: 1d0 (len: 284)
+[1;94m[*] [0mFuzzing test case #14 (974 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #15 (974 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 0: 1cb (len: 272)
+updated maxmap 15: 1ca (len: 272)
+updated maxmap 0: 1cd (len: 272)
+updated maxmap 15: 1cb (len: 272)
+[1;94m[*] [0mFuzzing test case #16 (974 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 1c3 (len: 277)
+updated maxmap 4: 1c4 (len: 281)
+updated maxmap 12: 1c4 (len: 277)
+updated maxmap 1: 1ff (len: 282)
+[1;94m[*] [0mFuzzing test case #17 (997 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 5: 1db (len: 289)
+updated maxmap 0: 1ce (len: 290)
+updated maxmap 15: 1cd (len: 290)
+updated maxmap 6: 1d6 (len: 287)
+updated maxmap 7: 1d3 (len: 287)
+updated maxmap 7: 1d4 (len: 284)
+updated maxmap 6: 1d9 (len: 287)
+updated maxmap 7: 1d7 (len: 287)
+updated maxmap 8: 21f (len: 291)
+updated maxmap 9: 222 (len: 291)
+updated maxmap 10: 20a (len: 291)
+updated maxmap 11: 202 (len: 291)
+updated maxmap 0: 1cf (len: 288)
+updated maxmap 14: 1c8 (len: 288)
+updated maxmap 15: 1ce (len: 288)
+updated maxmap 5: 1dc (len: 288)
+updated maxmap 5: 1e3 (len: 292)
+updated maxmap 7: 1d9 (len: 284)
+updated maxmap 5: 1e4 (len: 291)
+updated maxmap 7: 1db (len: 287)
+updated maxmap 0: 1d0 (len: 289)
+updated maxmap 6: 1da (len: 284)
+updated maxmap 6: 1db (len: 284)
+updated maxmap 0: 1d1 (len: 290)
+updated maxmap 14: 1cb (len: 290)
+updated maxmap 15: 1d0 (len: 290)
+updated maxmap 6: 1dd (len: 290)
+updated maxmap 4: 1e2 (len: 292)
+updated maxmap 5: 1e5 (len: 292)
+updated maxmap 0: 1e6 (len: 288)
+updated maxmap 5: 1e6 (len: 292)
+updated maxmap 6: 1e1 (len: 289)
+updated maxmap 7: 1dc (len: 289)
+updated maxmap 5: 1e7 (len: 293)
+updated maxmap 5: 1e9 (len: 295)
+updated maxmap 4: 1e6 (len: 297)
+updated maxmap 5: 1ee (len: 297)
+updated maxmap 13: 1c7 (len: 284)
+updated maxmap 14: 1cd (len: 284)
+updated maxmap 15: 1d3 (len: 284)
+updated maxmap 1: 225 (len: 299)
+updated maxmap 2: 21a (len: 299)
+updated maxmap 3: 214 (len: 299)
+[1;94m[*] [0mFuzzing test case #18 (1027 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 21b (len: 299)
+updated maxmap 3: 215 (len: 299)
+updated maxmap 6: 1f1 (len: 306)
+updated maxmap 7: 1f6 (len: 306)
+updated maxmap 9: 22a (len: 299)
+updated maxmap 10: 220 (len: 299)
+updated maxmap 11: 21a (len: 299)
+updated maxmap 1: 229 (len: 301)
+updated maxmap 2: 21e (len: 301)
+updated maxmap 3: 218 (len: 301)
+updated maxmap 2: 21f (len: 299)
+updated maxmap 3: 219 (len: 299)
+updated maxmap 1: 22f (len: 299)
+updated maxmap 2: 221 (len: 299)
+updated maxmap 3: 21a (len: 299)
+updated maxmap 1: 230 (len: 299)
+updated maxmap 3: 21b (len: 299)
+updated maxmap 1: 232 (len: 299)
+updated maxmap 2: 223 (len: 299)
+updated maxmap 3: 21c (len: 299)
+updated maxmap 1: 233 (len: 299)
+updated maxmap 2: 224 (len: 299)
+updated maxmap 3: 21d (len: 299)
+updated maxmap 0: 1f8 (len: 299)
+updated maxmap 1: 234 (len: 299)
+updated maxmap 2: 225 (len: 299)
+updated maxmap 3: 21e (len: 299)
+updated maxmap 2: 226 (len: 299)
+updated maxmap 1: 235 (len: 299)
+updated maxmap 3: 21f (len: 299)
+updated maxmap 0: 218 (len: 305)
+updated maxmap 1: 23a (len: 303)
+updated maxmap 2: 22c (len: 303)
+updated maxmap 3: 226 (len: 303)
+updated maxmap 0: 222 (len: 313)
+updated maxmap 2: 22d (len: 299)
+updated maxmap 3: 227 (len: 299)
+updated maxmap 0: 234 (len: 299)
+updated maxmap 2: 22e (len: 299)
+updated maxmap 3: 228 (len: 299)
+updated maxmap 0: 249 (len: 307)
+updated maxmap 3: 229 (len: 304)
+updated maxmap 10: 222 (len: 299)
+updated maxmap 11: 21d (len: 299)
+updated maxmap 3: 234 (len: 299)
+updated maxmap 3: 239 (len: 306)
+updated maxmap 4: 23d (len: 306)
+updated maxmap 2: 22f (len: 299)
+updated maxmap 2: 230 (len: 299)
+updated maxmap 9: 22c (len: 299)
+updated maxmap 10: 229 (len: 299)
+updated maxmap 11: 224 (len: 299)
+updated maxmap 2: 231 (len: 299)
+updated maxmap 6: 1f5 (len: 304)
+updated maxmap 5: 1f0 (len: 305)
+updated maxmap 6: 1f9 (len: 305)
+updated maxmap 7: 1f8 (len: 305)
+updated maxmap 3: 23c (len: 303)
+updated maxmap 4: 23e (len: 303)
+updated maxmap 5: 1f1 (len: 310)
+updated maxmap 6: 1fa (len: 310)
+updated maxmap 7: 1f9 (len: 310)
+updated maxmap 2: 233 (len: 306)
+updated maxmap 1: 23b (len: 304)
+updated maxmap 2: 240 (len: 304)
+updated maxmap 5: 1f2 (len: 306)
+updated maxmap 1: 243 (len: 306)
+updated maxmap 5: 1f3 (len: 305)
+updated maxmap 9: 231 (len: 299)
+updated maxmap 5: 1f4 (len: 306)
+updated maxmap 2: 243 (len: 306)
+updated maxmap 1: 244 (len: 305)
+updated maxmap 2: 244 (len: 307)
+updated maxmap 3: 246 (len: 307)
+updated maxmap 5: 1fd (len: 307)
+updated maxmap 6: 1fc (len: 307)
+updated maxmap 2: 246 (len: 307)
+updated maxmap 3: 248 (len: 307)
+[1;94m[*] [0mFuzzing test case #19 (1066 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #20 (1066 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #21 (1066 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 3: 249 (len: 307)
+updated maxmap 3: 24b (len: 307)
+updated maxmap 6: 202 (len: 312)
+updated maxmap 7: 1fe (len: 312)
+updated maxmap 2: 247 (len: 307)
+updated maxmap 1: 24a (len: 314)
+updated maxmap 2: 254 (len: 314)
+updated maxmap 3: 257 (len: 314)
+updated maxmap 9: 236 (len: 314)
+updated maxmap 10: 233 (len: 314)
+updated maxmap 11: 22d (len: 314)
+updated maxmap 5: 240 (len: 313)
+updated maxmap 6: 242 (len: 313)
+updated maxmap 5: 242 (len: 314)
+updated maxmap 6: 248 (len: 314)
+updated maxmap 1: 24c (len: 307)
+updated maxmap 0: 24f (len: 313)
+updated maxmap 1: 254 (len: 313)
+updated maxmap 10: 23b (len: 307)
+updated maxmap 11: 244 (len: 307)
+updated maxmap 2: 255 (len: 315)
+updated maxmap 7: 204 (len: 319)
+updated maxmap 4: 244 (len: 307)
+updated maxmap 5: 246 (len: 307)
+updated maxmap 9: 23c (len: 307)
+updated maxmap 1: 255 (len: 313)
+[1;94m[*] [0mFuzzing test case #22 (1081 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 258 (len: 314)
+updated maxmap 2: 256 (len: 314)
+updated maxmap 7: 24a (len: 320)
+updated maxmap 3: 25f (len: 321)
+updated maxmap 4: 269 (len: 321)
+updated maxmap 5: 26c (len: 320)
+updated maxmap 2: 258 (len: 314)
+updated maxmap 2: 25a (len: 314)
+updated maxmap 7: 24d (len: 320)
+updated maxmap 8: 24e (len: 321)
+updated maxmap 8: 24f (len: 321)
+updated maxmap 5: 26d (len: 329)
+updated maxmap 6: 277 (len: 329)
+updated maxmap 0: 251 (len: 314)
+updated maxmap 1: 259 (len: 314)
+updated maxmap 7: 265 (len: 321)
+updated maxmap 8: 268 (len: 321)
+updated maxmap 0: 259 (len: 314)
+updated maxmap 3: 260 (len: 322)
+updated maxmap 4: 26a (len: 322)
+updated maxmap 5: 26f (len: 322)
+updated maxmap 5: 270 (len: 328)
+[1;94m[*] [0mFuzzing test case #23 (1108 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 26e (len: 328)
+updated maxmap 9: 278 (len: 328)
+updated maxmap 10: 27a (len: 328)
+updated maxmap 7: 266 (len: 321)
+updated maxmap 13: 1cb (len: 324)
+updated maxmap 14: 1d5 (len: 324)
+updated maxmap 15: 1df (len: 324)
+updated maxmap 10: 27c (len: 328)
+updated maxmap 11: 283 (len: 350)
+updated maxmap 13: 1ce (len: 321)
+updated maxmap 14: 1d8 (len: 321)
+updated maxmap 15: 1e2 (len: 321)
+updated maxmap 8: 26f (len: 325)
+updated maxmap 9: 279 (len: 329)
+updated maxmap 3: 264 (len: 321)
+updated maxmap 1: 25d (len: 327)
+updated maxmap 2: 267 (len: 327)
+updated maxmap 3: 271 (len: 327)
+updated maxmap 4: 276 (len: 327)
+updated maxmap 5: 278 (len: 328)
+updated maxmap 8: 270 (len: 323)
+updated maxmap 9: 27a (len: 328)
+updated maxmap 10: 27d (len: 328)
+updated maxmap 7: 267 (len: 321)
+[1;94m[*] [0mFuzzing test case #24 (1129 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 10: 282 (len: 332)
+updated maxmap 11: 284 (len: 332)
+updated maxmap 5: 279 (len: 328)
+updated maxmap 5: 27a (len: 328)
+updated maxmap 5: 27d (len: 329)
+updated maxmap 10: 283 (len: 331)
+updated maxmap 5: 27e (len: 336)
+updated maxmap 6: 288 (len: 336)
+updated maxmap 7: 28d (len: 336)
+updated maxmap 10: 28a (len: 335)
+updated maxmap 11: 285 (len: 335)
+updated maxmap 11: 287 (len: 335)
+updated maxmap 5: 280 (len: 336)
+updated maxmap 6: 28a (len: 336)
+updated maxmap 4: 277 (len: 328)
+updated maxmap 8: 275 (len: 335)
+updated maxmap 9: 27f (len: 335)
+updated maxmap 11: 28b (len: 335)
+updated maxmap 4: 27b (len: 335)
+updated maxmap 5: 285 (len: 335)
+updated maxmap 1: 25e (len: 328)
+updated maxmap 2: 268 (len: 328)
+updated maxmap 3: 272 (len: 328)
+updated maxmap 0: 25a (len: 328)
+updated maxmap 1: 264 (len: 328)
+updated maxmap 2: 26e (len: 328)
+updated maxmap 3: 278 (len: 328)
+updated maxmap 10: 28d (len: 339)
+updated maxmap 4: 27c (len: 335)
+updated maxmap 5: 286 (len: 335)
+updated maxmap 6: 28b (len: 335)
+updated maxmap 8: 27d (len: 335)
+updated maxmap 4: 281 (len: 336)
+updated maxmap 5: 28b (len: 336)
+updated maxmap 6: 28d (len: 336)
+updated maxmap 0: 25c (len: 328)
+updated maxmap 1: 265 (len: 328)
+updated maxmap 2: 26f (len: 328)
+updated maxmap 3: 279 (len: 328)
+[1;94m[*] [0mFuzzing test case #25 (1163 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 0: 25d (len: 328)
+updated maxmap 1: 266 (len: 328)
+updated maxmap 2: 270 (len: 328)
+updated maxmap 3: 27a (len: 328)
+updated maxmap 1: 267 (len: 328)
+updated maxmap 2: 271 (len: 328)
+updated maxmap 3: 27b (len: 328)
+updated maxmap 0: 25e (len: 328)
+updated maxmap 9: 28f (len: 345)
+updated maxmap 4: 285 (len: 333)
+updated maxmap 0: 261 (len: 328)
+updated maxmap 1: 26b (len: 328)
+updated maxmap 2: 275 (len: 328)
+updated maxmap 0: 262 (len: 328)
+updated maxmap 1: 26c (len: 328)
+updated maxmap 2: 276 (len: 328)
+updated maxmap 3: 280 (len: 334)
+updated maxmap 4: 28a (len: 334)
+updated maxmap 5: 28f (len: 336)
+updated maxmap 0: 263 (len: 328)
+updated maxmap 1: 26d (len: 328)
+updated maxmap 2: 277 (len: 328)
+updated maxmap 0: 272 (len: 328)
+updated maxmap 1: 27c (len: 328)
+updated maxmap 2: 278 (len: 328)
+updated maxmap 2: 279 (len: 328)
+updated maxmap 9: 2ad (len: 335)
+updated maxmap 10: 299 (len: 335)
+updated maxmap 11: 292 (len: 335)
+updated maxmap 2: 284 (len: 333)
+updated maxmap 3: 286 (len: 333)
+updated maxmap 0: 279 (len: 328)
+updated maxmap 3: 287 (len: 338)
+updated maxmap 2: 286 (len: 333)
+updated maxmap 3: 288 (len: 333)
+updated maxmap 0: 27b (len: 328)
+updated maxmap 3: 290 (len: 336)
+[1;94m[*] [0mFuzzing test case #26 (1181 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #27 (1181 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 2ae (len: 335)
+updated maxmap 10: 29a (len: 335)
+updated maxmap 11: 293 (len: 335)
+updated maxmap 9: 2bc (len: 342)
+updated maxmap 10: 2b9 (len: 342)
+updated maxmap 11: 29b (len: 335)
+updated maxmap 11: 29c (len: 335)
+updated maxmap 11: 29d (len: 335)
+updated maxmap 8: 2aa (len: 335)
+updated maxmap 11: 29e (len: 335)
+updated maxmap 7: 2a8 (len: 335)
+updated maxmap 8: 2b0 (len: 335)
+updated maxmap 12: 1c5 (len: 335)
+updated maxmap 11: 29f (len: 336)
+updated maxmap 9: 2bd (len: 341)
+updated maxmap 10: 2bb (len: 341)
+updated maxmap 7: 2c5 (len: 345)
+updated maxmap 8: 2c8 (len: 345)
+updated maxmap 11: 2b0 (len: 345)
+updated maxmap 10: 2c0 (len: 342)
+updated maxmap 11: 2b1 (len: 349)
+[1;94m[*] [0mFuzzing test case #28 (1218 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 28b (len: 334)
+updated maxmap 1: 283 (len: 343)
+updated maxmap 2: 28d (len: 343)
+updated maxmap 3: 297 (len: 343)
+updated maxmap 4: 2a1 (len: 343)
+updated maxmap 0: 27c (len: 335)
+updated maxmap 1: 286 (len: 335)
+updated maxmap 5: 292 (len: 337)
+updated maxmap 2: 28e (len: 341)
+updated maxmap 6: 292 (len: 337)
+updated maxmap 5: 297 (len: 342)
+updated maxmap 6: 29a (len: 342)
+updated maxmap 0: 283 (len: 346)
+updated maxmap 1: 28d (len: 346)
+updated maxmap 2: 297 (len: 346)
+updated maxmap 3: 2a1 (len: 346)
+updated maxmap 4: 2a6 (len: 346)
+updated maxmap 0: 284 (len: 334)
+updated maxmap 0: 285 (len: 334)
+updated maxmap 0: 28d (len: 338)
+updated maxmap 1: 292 (len: 338)
+[1;94m[*] [0mFuzzing test case #29 (1234 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #30 (1234 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 2be (len: 341)
+updated maxmap 9: 2c0 (len: 341)
+updated maxmap 8: 2c9 (len: 345)
+updated maxmap 9: 2c4 (len: 345)
+updated maxmap 10: 2c1 (len: 344)
+[1;94m[*] [0mFuzzing test case #31 (1237 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 4: 2ab (len: 353)
+updated maxmap 5: 2b5 (len: 353)
+updated maxmap 6: 2b7 (len: 353)
+updated maxmap 2: 298 (len: 346)
+updated maxmap 3: 2a2 (len: 346)
+updated maxmap 2: 299 (len: 346)
+updated maxmap 3: 2a3 (len: 346)
+updated maxmap 2: 29a (len: 346)
+updated maxmap 3: 2a4 (len: 346)
+updated maxmap 4: 2ae (len: 349)
+updated maxmap 6: 2bc (len: 354)
+updated maxmap 5: 2b7 (len: 352)
+updated maxmap 5: 2b8 (len: 354)
+updated maxmap 2: 29b (len: 346)
+updated maxmap 6: 2bd (len: 354)
+updated maxmap 1: 294 (len: 347)
+updated maxmap 2: 29e (len: 347)
+updated maxmap 3: 2a6 (len: 347)
+updated maxmap 0: 29e (len: 346)
+updated maxmap 1: 2a3 (len: 346)
+updated maxmap 2: 29f (len: 346)
+updated maxmap 3: 2a7 (len: 354)
+updated maxmap 4: 2b1 (len: 354)
+updated maxmap 3: 2a8 (len: 351)
+updated maxmap 2: 2a1 (len: 346)
+updated maxmap 2: 2a2 (len: 346)
+updated maxmap 3: 2a9 (len: 347)
+updated maxmap 0: 2a1 (len: 346)
+updated maxmap 1: 2a6 (len: 346)
+updated maxmap 4: 2b3 (len: 352)
+updated maxmap 8: 2d0 (len: 367)
+updated maxmap 9: 2ce (len: 367)
+updated maxmap 5: 2bc (len: 363)
+updated maxmap 6: 2c5 (len: 363)
+updated maxmap 7: 2cc (len: 363)
+updated maxmap 3: 2ac (len: 351)
+[1;94m[*] [0mFuzzing test case #32 (1252 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #33 (1252 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #34 (1252 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #35 (1252 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 2c2 (len: 344)
+[1;94m[*] [0mFuzzing test case #36 (1252 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 9: 2d0 (len: 371)
+updated maxmap 7: 2cf (len: 375)
+updated maxmap 8: 2d1 (len: 372)
+updated maxmap 7: 2d1 (len: 371)
+updated maxmap 7: 2d2 (len: 367)
+updated maxmap 10: 2c3 (len: 367)
+updated maxmap 8: 2d3 (len: 371)
+updated maxmap 9: 2d2 (len: 372)
+updated maxmap 7: 2e0 (len: 375)
+updated maxmap 8: 2e0 (len: 375)
+updated maxmap 11: 2b2 (len: 367)
+[1;94m[*] [0mFuzzing test case #37 (1280 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 2aa (len: 351)
+updated maxmap 2: 2b1 (len: 351)
+updated maxmap 3: 2b3 (len: 353)
+[1;94m[*] [0mFuzzing test case #38 (1281 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #39 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 2ab (len: 352)
+updated maxmap 2: 2b2 (len: 352)
+[1;94m[*] [0mFuzzing test case #40 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #41 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #42 (1281 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #43 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #44 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #45 (1281 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 2b4 (len: 353)
+updated maxmap 2: 2b3 (len: 353)
+updated maxmap 3: 2b5 (len: 353)
+updated maxmap 2: 2b5 (len: 353)
+updated maxmap 3: 2b7 (len: 353)
+updated maxmap 3: 2ba (len: 354)
+updated maxmap 3: 2bb (len: 355)
+updated maxmap 0: 2a2 (len: 353)
+updated maxmap 4: 2b7 (len: 353)
+[1;94m[*] [0mFuzzing test case #46 (1282 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+updated maxmap 1: 2ac (len: 353)
+updated maxmap 2: 2b6 (len: 353)
+updated maxmap 3: 2bc (len: 360)
+updated maxmap 4: 2c6 (len: 360)
+[1;94m[*] [0mFuzzing test case #47 (1282 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #48 (1282 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #49 (1282 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 2bd (len: 360)
+updated maxmap 4: 2c7 (len: 360)
+updated maxmap 3: 2be (len: 360)
+updated maxmap 4: 2c8 (len: 360)
+updated maxmap 5: 2c5 (len: 360)
+updated maxmap 6: 2c8 (len: 360)
+updated maxmap 5: 2d0 (len: 368)
+updated maxmap 6: 2da (len: 368)
+updated maxmap 3: 2bf (len: 361)
+updated maxmap 4: 2c9 (len: 361)
+updated maxmap 3: 2c0 (len: 360)
+updated maxmap 11: 2b3 (len: 360)
+updated maxmap 5: 2f6 (len: 384)
+updated maxmap 6: 2ee (len: 384)
+updated maxmap 7: 2e2 (len: 384)
+updated maxmap 4: 2ca (len: 362)
+[1;94m[*] [0mFuzzing test case #50 (1293 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #51 (1294 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #52 (1294 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 2f6 (len: 384)
+updated maxmap 8: 2e2 (len: 384)
+updated maxmap 6: 2f7 (len: 384)
+updated maxmap 7: 2e3 (len: 384)
+updated maxmap 6: 301 (len: 389)
+updated maxmap 5: 316 (len: 399)
+updated maxmap 6: 320 (len: 399)
+updated maxmap 7: 2ea (len: 399)
+updated maxmap 7: 2ec (len: 384)
+updated maxmap 7: 2f9 (len: 392)
+updated maxmap 10: 2c5 (len: 384)
+updated maxmap 4: 2fc (len: 384)
+[1;94m[*] [0mFuzzing test case #53 (1329 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #54 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 2fa (len: 392)
+[1;94m[*] [0mFuzzing test case #55 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #56 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #57 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #58 (1329 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #59 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #60 (1329 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #61 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #62 (1329 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #63 (1330 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #64 (1330 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #65 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #66 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #67 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #68 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #69 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #70 (1331 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #71 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #72 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 2fd (len: 384)
+updated maxmap 4: 301 (len: 384)
+[1;94m[*] [0mFuzzing test case #73 (1332 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #74 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 302 (len: 384)
+updated maxmap 4: 303 (len: 384)
+[1;94m[*] [0mFuzzing test case #75 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #76 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #77 (1332 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 7: 326 (len: 402)
+updated maxmap 4: 30c (len: 399)
+updated maxmap 5: 319 (len: 399)
+updated maxmap 5: 31e (len: 406)
+updated maxmap 6: 328 (len: 406)
+updated maxmap 4: 31b (len: 399)
+updated maxmap 5: 320 (len: 399)
+updated maxmap 8: 323 (len: 399)
+updated maxmap 5: 322 (len: 399)
+updated maxmap 9: 320 (len: 407)
+updated maxmap 3: 315 (len: 405)
+updated maxmap 4: 324 (len: 405)
+updated maxmap 5: 32e (len: 405)
+updated maxmap 6: 330 (len: 405)
+updated maxmap 3: 31a (len: 399)
+updated maxmap 7: 32e (len: 404)
+[1;94m[*] [0mFuzzing test case #78 (1353 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 4: 327 (len: 403)
+updated maxmap 7: 333 (len: 407)
+updated maxmap 3: 31b (len: 399)
+updated maxmap 3: 31c (len: 399)
+updated maxmap 3: 31d (len: 399)
+updated maxmap 3: 31e (len: 399)
+updated maxmap 3: 31f (len: 399)
+[1;94m[*] [0mFuzzing test case #79 (1354 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 334 (len: 407)
+updated maxmap 6: 331 (len: 407)
+updated maxmap 7: 336 (len: 407)
+updated maxmap 6: 332 (len: 407)
+updated maxmap 7: 337 (len: 407)
+updated maxmap 8: 32b (len: 407)
+updated maxmap 9: 335 (len: 407)
+updated maxmap 8: 32d (len: 407)
+updated maxmap 9: 337 (len: 407)
+updated maxmap 8: 336 (len: 409)
+updated maxmap 9: 33b (len: 409)
+updated maxmap 7: 33c (len: 409)
+updated maxmap 8: 337 (len: 407)
+updated maxmap 9: 33c (len: 414)
+updated maxmap 10: 346 (len: 414)
+updated maxmap 11: 349 (len: 414)
+updated maxmap 6: 335 (len: 407)
+updated maxmap 8: 33e (len: 413)
+updated maxmap 9: 343 (len: 413)
+updated maxmap 9: 344 (len: 414)
+updated maxmap 8: 343 (len: 412)
+updated maxmap 9: 347 (len: 414)
+updated maxmap 6: 338 (len: 409)
+updated maxmap 5: 330 (len: 410)
+updated maxmap 6: 33a (len: 410)
+updated maxmap 7: 33d (len: 410)
+updated maxmap 5: 331 (len: 407)
+updated maxmap 2: 330 (len: 407)
+updated maxmap 3: 335 (len: 407)
+updated maxmap 10: 34a (len: 415)
+updated maxmap 7: 33f (len: 413)
+updated maxmap 8: 344 (len: 413)
+[1;94m[*] [0mFuzzing test case #80 (1373 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 33b (len: 410)
+updated maxmap 4: 329 (len: 410)
+updated maxmap 5: 333 (len: 410)
+updated maxmap 6: 33d (len: 410)
+updated maxmap 9: 348 (len: 418)
+updated maxmap 10: 352 (len: 418)
+updated maxmap 11: 357 (len: 418)
+updated maxmap 4: 32a (len: 410)
+updated maxmap 5: 334 (len: 410)
+updated maxmap 6: 33e (len: 410)
+updated maxmap 4: 331 (len: 410)
+updated maxmap 5: 33b (len: 410)
+updated maxmap 7: 340 (len: 411)
+updated maxmap 7: 348 (len: 420)
+updated maxmap 8: 352 (len: 420)
+updated maxmap 9: 357 (len: 420)
+updated maxmap 6: 33f (len: 410)
+updated maxmap 7: 349 (len: 415)
+updated maxmap 6: 342 (len: 419)
+updated maxmap 4: 333 (len: 410)
+[1;94m[*] [0mFuzzing test case #81 (1393 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #82 (1394 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #83 (1394 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #84 (1394 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #85 (1394 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #86 (1394 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #87 (1394 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 9: 35b (len: 424)
+updated maxmap 10: 35f (len: 424)
+updated maxmap 9: 361 (len: 428)
+updated maxmap 11: 35f (len: 428)
+updated maxmap 8: 353 (len: 420)
+updated maxmap 10: 361 (len: 428)
+updated maxmap 7: 34c (len: 420)
+updated maxmap 8: 356 (len: 420)
+updated maxmap 6: 345 (len: 420)
+updated maxmap 7: 34f (len: 420)
+updated maxmap 8: 359 (len: 420)
+updated maxmap 5: 33d (len: 420)
+updated maxmap 6: 347 (len: 420)
+updated maxmap 7: 351 (len: 420)
+updated maxmap 4: 339 (len: 424)
+updated maxmap 5: 343 (len: 424)
+updated maxmap 6: 34d (len: 424)
+updated maxmap 7: 357 (len: 424)
+updated maxmap 8: 360 (len: 424)
+updated maxmap 2: 336 (len: 426)
+updated maxmap 3: 340 (len: 426)
+updated maxmap 4: 34a (len: 426)
+updated maxmap 5: 354 (len: 426)
+updated maxmap 6: 35e (len: 426)
+updated maxmap 7: 366 (len: 426)
+[1;94m[*] [0mFuzzing test case #88 (1403 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 2: 337 (len: 426)
+updated maxmap 3: 341 (len: 426)
+updated maxmap 4: 34b (len: 426)
+updated maxmap 5: 355 (len: 426)
+updated maxmap 11: 360 (len: 426)
+updated maxmap 6: 35f (len: 426)
+updated maxmap 8: 361 (len: 426)
+updated maxmap 11: 361 (len: 433)
+updated maxmap 2: 33c (len: 429)
+updated maxmap 3: 346 (len: 429)
+updated maxmap 4: 350 (len: 429)
+updated maxmap 5: 35a (len: 429)
+updated maxmap 6: 364 (len: 429)
+updated maxmap 7: 36b (len: 429)
+updated maxmap 2: 33e (len: 426)
+updated maxmap 3: 347 (len: 426)
+updated maxmap 4: 351 (len: 426)
+updated maxmap 5: 35b (len: 426)
+updated maxmap 6: 365 (len: 426)
+updated maxmap 3: 348 (len: 426)
+updated maxmap 4: 352 (len: 426)
+updated maxmap 5: 35c (len: 426)
+updated maxmap 2: 342 (len: 426)
+updated maxmap 3: 349 (len: 426)
+updated maxmap 4: 353 (len: 426)
+updated maxmap 5: 35d (len: 426)
+updated maxmap 3: 34a (len: 426)
+updated maxmap 4: 354 (len: 426)
+updated maxmap 5: 35e (len: 426)
+updated maxmap 2: 343 (len: 426)
+updated maxmap 3: 34b (len: 426)
+updated maxmap 4: 355 (len: 426)
+updated maxmap 5: 35f (len: 426)
+updated maxmap 6: 366 (len: 426)
+updated maxmap 2: 345 (len: 429)
+updated maxmap 3: 34f (len: 429)
+updated maxmap 4: 359 (len: 429)
+updated maxmap 5: 363 (len: 429)
+updated maxmap 6: 36d (len: 429)
+updated maxmap 2: 346 (len: 426)
+updated maxmap 1: 344 (len: 438)
+updated maxmap 2: 353 (len: 438)
+updated maxmap 3: 35d (len: 438)
+updated maxmap 4: 367 (len: 438)
+updated maxmap 5: 371 (len: 438)
+updated maxmap 6: 37b (len: 438)
+updated maxmap 7: 380 (len: 438)
+updated maxmap 1: 347 (len: 426)
+updated maxmap 2: 356 (len: 426)
+updated maxmap 3: 360 (len: 426)
+updated maxmap 1: 348 (len: 426)
+updated maxmap 1: 34a (len: 434)
+updated maxmap 4: 36a (len: 434)
+updated maxmap 5: 374 (len: 434)
+updated maxmap 1: 34b (len: 426)
+updated maxmap 2: 357 (len: 426)
+updated maxmap 3: 361 (len: 426)
+updated maxmap 2: 358 (len: 426)
+updated maxmap 3: 362 (len: 426)
+updated maxmap 1: 34c (len: 426)
+updated maxmap 4: 36c (len: 430)
+updated maxmap 2: 359 (len: 426)
+updated maxmap 3: 363 (len: 426)
+updated maxmap 8: 367 (len: 429)
+[1;94m[*] [0mFuzzing test case #89 (1422 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #90 (1422 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #91 (1422 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #92 (1422 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #93 (1423 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 8: 36e (len: 434)
+updated maxmap 1: 34d (len: 434)
+updated maxmap 2: 35a (len: 434)
+updated maxmap 3: 364 (len: 434)
+updated maxmap 4: 36e (len: 434)
+updated maxmap 5: 375 (len: 434)
+updated maxmap 9: 362 (len: 441)
+updated maxmap 5: 376 (len: 434)
+updated maxmap 5: 377 (len: 434)
+updated maxmap 5: 378 (len: 434)
+updated maxmap 1: 34e (len: 434)
+updated maxmap 2: 35b (len: 434)
+updated maxmap 3: 365 (len: 434)
+updated maxmap 4: 36f (len: 434)
+updated maxmap 5: 379 (len: 434)
+updated maxmap 2: 35c (len: 434)
+updated maxmap 3: 366 (len: 434)
+updated maxmap 4: 370 (len: 434)
+updated maxmap 6: 382 (len: 444)
+updated maxmap 7: 38c (len: 444)
+updated maxmap 8: 391 (len: 444)
+updated maxmap 1: 34f (len: 434)
+updated maxmap 6: 383 (len: 439)
+updated maxmap 1: 351 (len: 434)
+updated maxmap 2: 35d (len: 434)
+updated maxmap 3: 367 (len: 434)
+updated maxmap 4: 371 (len: 434)
+updated maxmap 5: 37a (len: 435)
+updated maxmap 1: 352 (len: 436)
+updated maxmap 2: 35f (len: 436)
+updated maxmap 3: 369 (len: 436)
+updated maxmap 4: 373 (len: 436)
+updated maxmap 5: 37d (len: 436)
+updated maxmap 1: 354 (len: 434)
+updated maxmap 2: 361 (len: 434)
+updated maxmap 3: 36b (len: 434)
+updated maxmap 4: 374 (len: 434)
+updated maxmap 10: 362 (len: 434)
+[1;94m[*] [0mFuzzing test case #94 (1436 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 6: 38f (len: 446)
+updated maxmap 5: 395 (len: 449)
+[1;94m[*] [0mFuzzing test case #95 (1450 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #96 (1450 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 5: 396 (len: 449)
+updated maxmap 5: 398 (len: 457)
+updated maxmap 6: 3a2 (len: 457)
+updated maxmap 7: 3aa (len: 457)
+updated maxmap 4: 38e (len: 449)
+updated maxmap 4: 393 (len: 449)
+updated maxmap 8: 39b (len: 456)
+updated maxmap 9: 3a2 (len: 456)
+updated maxmap 5: 399 (len: 450)
+[1;94m[*] [0mFuzzing test case #97 (1462 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #98 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #99 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #100 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #101 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #102 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #103 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #104 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #105 (1462 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #106 (1462 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 3a3 (len: 457)
+updated maxmap 7: 3ab (len: 457)
+updated maxmap 8: 3a9 (len: 457)
+updated maxmap 9: 3a9 (len: 457)
+[1;94m[*] [0mFuzzing test case #107 (1464 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #108 (1464 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #109 (1464 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 8: 3ad (len: 458)
+[1;94m[*] [0mFuzzing test case #110 (1465 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #111 (1465 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #112 (1465 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 356 (len: 439)
+updated maxmap 2: 362 (len: 439)
+updated maxmap 3: 36c (len: 439)
+updated maxmap 1: 358 (len: 434)
+updated maxmap 2: 365 (len: 434)
+updated maxmap 3: 36f (len: 434)
+updated maxmap 1: 359 (len: 434)
+[1;94m[*] [0mFuzzing test case #113 (1467 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #114 (1467 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 5: 39e (len: 457)
+updated maxmap 6: 3a8 (len: 457)
+updated maxmap 7: 3ad (len: 459)
+updated maxmap 8: 3af (len: 459)
+updated maxmap 9: 3aa (len: 457)
+updated maxmap 8: 3b7 (len: 463)
+updated maxmap 9: 3b9 (len: 463)
+updated maxmap 10: 3bc (len: 464)
+updated maxmap 4: 399 (len: 457)
+updated maxmap 5: 3a3 (len: 457)
+updated maxmap 6: 3aa (len: 457)
+updated maxmap 3: 396 (len: 464)
+updated maxmap 4: 3a8 (len: 464)
+updated maxmap 5: 3b2 (len: 464)
+updated maxmap 6: 3bb (len: 464)
+updated maxmap 7: 3ae (len: 458)
+updated maxmap 11: 3aa (len: 457)
+updated maxmap 7: 3b0 (len: 460)
+updated maxmap 3: 39a (len: 464)
+updated maxmap 4: 3ab (len: 464)
+updated maxmap 5: 3b5 (len: 464)
+updated maxmap 6: 3bd (len: 464)
+[1;94m[*] [0mFuzzing test case #115 (1481 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #116 (1481 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #117 (1481 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #118 (1482 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #119 (1482 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 8: 3b8 (len: 464)
+updated maxmap 9: 3bd (len: 464)
+[1;94m[*] [0mFuzzing test case #120 (1482 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #121 (1482 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 3ac (len: 457)
+updated maxmap 4: 3ad (len: 457)
+updated maxmap 11: 3b4 (len: 464)
+updated maxmap 8: 3c2 (len: 465)
+[1;94m[*] [0mFuzzing test case #122 (1484 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #123 (1484 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 3ae (len: 457)
+updated maxmap 10: 3c1 (len: 465)
+updated maxmap 11: 3ba (len: 465)
+[1;94m[*] [0mFuzzing test case #124 (1484 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #125 (1484 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 3c2 (len: 465)
+updated maxmap 8: 3d0 (len: 471)
+updated maxmap 9: 3c9 (len: 471)
+updated maxmap 7: 3c1 (len: 465)
+updated maxmap 10: 3c5 (len: 471)
+updated maxmap 11: 3c3 (len: 471)
+[1;94m[*] [0mFuzzing test case #126 (1485 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #127 (1485 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #128 (1485 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 3dc (len: 476)
+updated maxmap 11: 3c8 (len: 479)
+updated maxmap 10: 3c9 (len: 477)
+[1;94m[*] [0mFuzzing test case #129 (1487 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #130 (1487 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 5: 3ba (len: 484)
+updated maxmap 6: 3c4 (len: 484)
+updated maxmap 7: 3ce (len: 484)
+updated maxmap 9: 3e1 (len: 484)
+updated maxmap 10: 3e1 (len: 484)
+updated maxmap 5: 3bb (len: 477)
+updated maxmap 6: 3c5 (len: 477)
+updated maxmap 7: 3cf (len: 477)
+updated maxmap 8: 3e6 (len: 485)
+updated maxmap 9: 3e8 (len: 485)
+updated maxmap 5: 3bd (len: 477)
+updated maxmap 6: 3c7 (len: 477)
+updated maxmap 7: 3d1 (len: 477)
+[1;94m[*] [0mFuzzing test case #131 (1510 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #132 (1510 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #133 (1510 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #134 (1510 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #135 (1510 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 35a (len: 434)
+updated maxmap 2: 367 (len: 434)
+updated maxmap 1: 35b (len: 434)
+updated maxmap 1: 35c (len: 434)
+updated maxmap 2: 369 (len: 434)
+[1;94m[*] [0mFuzzing test case #136 (1511 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #137 (1511 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #138 (1511 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #139 (1511 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #140 (1511 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 4: 3b5 (len: 477)
+updated maxmap 5: 3c2 (len: 477)
+updated maxmap 6: 3cc (len: 477)
+updated maxmap 7: 3d6 (len: 477)
+updated maxmap 8: 3e9 (len: 483)
+updated maxmap 4: 3b8 (len: 477)
+updated maxmap 5: 3c4 (len: 477)
+updated maxmap 6: 3ce (len: 477)
+updated maxmap 7: 3d8 (len: 477)
+[1;94m[*] [0mFuzzing test case #141 (1512 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 5: 3c5 (len: 477)
+updated maxmap 6: 3cf (len: 477)
+updated maxmap 7: 3d9 (len: 477)
+[1;94m[*] [0mFuzzing test case #142 (1513 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #143 (1513 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #144 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #145 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #146 (1513 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #147 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #148 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #149 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #150 (1513 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #151 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #152 (1514 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #153 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #154 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #155 (1514 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #156 (1514 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #157 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #158 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #159 (1514 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 4: 3b9 (len: 478)
+[1;94m[*] [0mFuzzing test case #160 (1516 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 4: 3bd (len: 477)
+updated maxmap 5: 3c7 (len: 477)
+updated maxmap 6: 3d1 (len: 477)
+updated maxmap 7: 3db (len: 477)
+updated maxmap 3: 3ca (len: 477)
+updated maxmap 4: 3d4 (len: 477)
+updated maxmap 5: 3de (len: 477)
+updated maxmap 6: 3e3 (len: 477)
+[1;94m[*] [0mFuzzing test case #161 (1526 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #162 (1526 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #163 (1526 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #164 (1526 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #165 (1526 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #166 (1526 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 6: 3e8 (len: 481)
+updated maxmap 7: 3ed (len: 481)
+updated maxmap 7: 3f2 (len: 485)
+updated maxmap 8: 3f7 (len: 485)
+[1;94m[*] [0mFuzzing test case #167 (1528 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 3f8 (len: 486)
+updated maxmap 3: 3d0 (len: 488)
+updated maxmap 4: 3da (len: 488)
+updated maxmap 5: 3e4 (len: 488)
+updated maxmap 6: 3ee (len: 488)
+updated maxmap 7: 3f8 (len: 488)
+updated maxmap 8: 3fc (len: 488)
+updated maxmap 3: 3d1 (len: 485)
+updated maxmap 4: 3db (len: 485)
+updated maxmap 5: 3e5 (len: 485)
+updated maxmap 6: 3ef (len: 485)
+updated maxmap 11: 3d0 (len: 491)
+updated maxmap 3: 3d2 (len: 485)
+updated maxmap 4: 3dc (len: 485)
+updated maxmap 5: 3e6 (len: 485)
+updated maxmap 6: 3f0 (len: 485)
+[1;94m[*] [0mFuzzing test case #168 (1530 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #169 (1530 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #170 (1530 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #171 (1530 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 7: 3f9 (len: 488)
+updated maxmap 8: 3fd (len: 488)
+updated maxmap 7: 3fd (len: 488)
+updated maxmap 7: 3ff (len: 495)
+updated maxmap 8: 3fe (len: 495)
+updated maxmap 6: 410 (len: 496)
+updated maxmap 7: 402 (len: 495)
+updated maxmap 11: 3d1 (len: 496)
+updated maxmap 3: 3db (len: 488)
+updated maxmap 4: 3e2 (len: 488)
+updated maxmap 5: 3ec (len: 488)
+[1;94m[*] [0mFuzzing test case #172 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #173 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #174 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 3ea (len: 485)
+[1;94m[*] [0mFuzzing test case #175 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #176 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #177 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #178 (1547 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 8: 3ff (len: 503)
+updated maxmap 6: 411 (len: 496)
+updated maxmap 6: 412 (len: 496)
+updated maxmap 10: 3e2 (len: 496)
+updated maxmap 7: 40a (len: 496)
+updated maxmap 6: 41a (len: 503)
+updated maxmap 7: 421 (len: 503)
+updated maxmap 5: 410 (len: 496)
+updated maxmap 8: 400 (len: 502)
+updated maxmap 9: 3ef (len: 503)
+updated maxmap 6: 41b (len: 502)
+updated maxmap 5: 411 (len: 496)
+[1;94m[*] [0mFuzzing test case #179 (1564 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #180 (1566 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #181 (1566 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #182 (1566 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 422 (len: 503)
+updated maxmap 7: 423 (len: 503)
+[1;94m[*] [0mFuzzing test case #183 (1566 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #184 (1566 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 4: 423 (len: 509)
+updated maxmap 5: 42c (len: 509)
+[1;94m[*] [0mFuzzing test case #185 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 41c (len: 502)
+[1;94m[*] [0mFuzzing test case #186 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #187 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #188 (1577 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #189 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #190 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #191 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #192 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #193 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #194 (1577 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 4: 424 (len: 509)
+updated maxmap 5: 42e (len: 509)
+updated maxmap 6: 421 (len: 509)
+updated maxmap 7: 42b (len: 509)
+updated maxmap 6: 42c (len: 509)
+updated maxmap 8: 42d (len: 509)
+[1;94m[*] [0mFuzzing test case #195 (1578 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #196 (1578 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 7: 42f (len: 511)
+updated maxmap 8: 42f (len: 511)
+[1;94m[*] [0mFuzzing test case #197 (1578 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #198 (1579 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #199 (1579 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 42e (len: 510)
+[1;94m[*] [0mFuzzing test case #200 (1580 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #201 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #202 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #203 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #204 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #205 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #206 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #207 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #208 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #209 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 2: 3df (len: 488)
+updated maxmap 3: 3ec (len: 488)
+updated maxmap 2: 3e0 (len: 488)
+[1;94m[*] [0mFuzzing test case #210 (1581 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #211 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 430 (len: 511)
+updated maxmap 8: 430 (len: 511)
+[1;94m[*] [0mFuzzing test case #212 (1581 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #213 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #214 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 9: 42d (len: 510)
+[1;94m[*] [0mFuzzing test case #215 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #216 (1581 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #217 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #218 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #219 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #220 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #221 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 9: 42e (len: 518)
+updated maxmap 10: 42e (len: 518)
+[1;94m[*] [0mFuzzing test case #222 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #223 (1582 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #224 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #225 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #226 (1582 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #227 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #228 (1582 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #229 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 5: 43a (len: 514)
+updated maxmap 6: 438 (len: 514)
+[1;94m[*] [0mFuzzing test case #230 (1582 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 42f (len: 518)
+updated maxmap 4: 443 (len: 518)
+updated maxmap 5: 440 (len: 518)
+updated maxmap 6: 439 (len: 518)
+updated maxmap 11: 42e (len: 518)
+updated maxmap 4: 444 (len: 518)
+updated maxmap 5: 442 (len: 518)
+updated maxmap 6: 43b (len: 518)
+updated maxmap 9: 430 (len: 518)
+updated maxmap 12: 42e (len: 524)
+[1;94m[*] [0mFuzzing test case #231 (1594 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+[1;94m[*] [0mFuzzing test case #232 (1594 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #233 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #234 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #235 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #236 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #237 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #238 (1594 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #239 (1594 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #240 (1594 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #241 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #242 (1594 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #243 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 4: 445 (len: 518)
+updated maxmap 5: 443 (len: 518)
+updated maxmap 6: 43c (len: 518)
+updated maxmap 3: 44b (len: 520)
+updated maxmap 4: 448 (len: 520)
+[1;94m[*] [0mFuzzing test case #244 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #245 (1594 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 6: 43e (len: 519)
+[1;94m[*] [0mFuzzing test case #246 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #247 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #248 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #249 (1595 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #250 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #251 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #252 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+updated maxmap 13: 42e (len: 531)
+updated maxmap 14: 42e (len: 531)
+[1;94m[*] [0mFuzzing test case #253 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 449 (len: 520)
+[1;94m[*] [0mFuzzing test case #254 (1595 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #255 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #256 (1595 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #257 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #258 (1595 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #259 (1596 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #260 (1596 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #261 (1596 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #262 (1596 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+minimized maxmap 13: 42e (len: 530)
+minimized maxmap 13: 42e (len: 529)
+updated maxmap 10: 42f (len: 524)
+updated maxmap 11: 42f (len: 524)
+minimized maxmap 13: 42e (len: 528)
+updated maxmap 3: 45d (len: 530)
+updated maxmap 4: 460 (len: 530)
+updated maxmap 9: 432 (len: 524)
+updated maxmap 10: 431 (len: 524)
+updated maxmap 13: 42f (len: 534)
+updated maxmap 14: 42f (len: 534)
+minimized maxmap 13: 42f (len: 528)
+[1;94m[*] [0mFuzzing test case #263 (1611 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #264 (1611 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #265 (1611 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #266 (1612 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #267 (1612 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #268 (1612 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #269 (1612 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #270 (1612 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #271 (1612 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 3: 45e (len: 530)
+updated maxmap 6: 440 (len: 534)
+updated maxmap 4: 462 (len: 531)
+updated maxmap 7: 431 (len: 536)
+updated maxmap 13: 430 (len: 538)
+updated maxmap 14: 431 (len: 538)
+updated maxmap 5: 471 (len: 537)
+updated maxmap 4: 469 (len: 537)
+updated maxmap 2: 443 (len: 533)
+minimized maxmap 4: 469 (len: 534)
+updated maxmap 0: 430 (len: 546)
+updated maxmap 15: 42f (len: 546)
+updated maxmap 3: 470 (len: 537)
+updated maxmap 4: 46b (len: 537)
+[1;94m[*] [0mFuzzing test case #272 (1627 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+updated maxmap 14: 433 (len: 538)
+updated maxmap 13: 431 (len: 538)
+updated maxmap 14: 434 (len: 538)
+updated maxmap 8: 432 (len: 538)
+updated maxmap 15: 431 (len: 538)
+updated maxmap 15: 432 (len: 538)
+updated maxmap 15: 436 (len: 542)
+updated maxmap 0: 435 (len: 543)
+updated maxmap 0: 436 (len: 546)
+updated maxmap 14: 435 (len: 538)
+[1;94m[*] [0mFuzzing test case #273 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #274 (1640 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #275 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+minimized maxmap 6: 440 (len: 533)
+[1;94m[*] [0mFuzzing test case #276 (1640 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #277 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #278 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #279 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 12: 42f (len: 524)
+[1;94m[*] [0mFuzzing test case #280 (1640 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #281 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #282 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #283 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #284 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #285 (1640 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 15: 437 (len: 542)
+updated maxmap 0: 437 (len: 543)
+[1;94m[*] [0mFuzzing test case #286 (1642 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #287 (1642 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+updated maxmap 3: 475 (len: 543)
+updated maxmap 4: 46d (len: 543)
+updated maxmap 0: 438 (len: 543)
+[1;94m[*] [0mFuzzing test case #288 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #289 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #290 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 444 (len: 533)
+[1;94m[*] [0mFuzzing test case #291 (1643 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #292 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #293 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 2: 446 (len: 533)
+[1;94m[*] [0mFuzzing test case #294 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 4: 46e (len: 543)
+[1;94m[*] [0mFuzzing test case #295 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #296 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 448 (len: 533)
+updated maxmap 2: 44c (len: 538)
+[1;94m[*] [0mFuzzing test case #297 (1643 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 2: 489 (len: 550)
+updated maxmap 3: 476 (len: 543)
+updated maxmap 3: 47d (len: 548)
+updated maxmap 2: 48a (len: 548)
+updated maxmap 5: 479 (len: 548)
+updated maxmap 6: 483 (len: 548)
+updated maxmap 7: 488 (len: 548)
+updated maxmap 2: 490 (len: 550)
+updated maxmap 4: 470 (len: 550)
+minimized maxmap 4: 470 (len: 543)
+updated maxmap 5: 47c (len: 547)
+updated maxmap 6: 486 (len: 547)
+minimized maxmap 7: 488 (len: 547)
+minimized maxmap 5: 47c (len: 543)
+updated maxmap 7: 48e (len: 551)
+updated maxmap 8: 491 (len: 551)
+minimized maxmap 6: 486 (len: 546)
+updated maxmap 4: 47b (len: 543)
+updated maxmap 5: 480 (len: 543)
+updated maxmap 4: 47c (len: 543)
+updated maxmap 5: 481 (len: 543)
+minimized maxmap 2: 490 (len: 549)
+updated maxmap 4: 47f (len: 545)
+updated maxmap 5: 484 (len: 545)
+minimized maxmap 4: 47f (len: 543)
+updated maxmap 4: 480 (len: 543)
+updated maxmap 3: 481 (len: 543)
+updated maxmap 4: 482 (len: 544)
+[1;94m[*] [0mFuzzing test case #298 (1655 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 8: 493 (len: 556)
+updated maxmap 7: 48f (len: 551)
+updated maxmap 8: 494 (len: 551)
+updated maxmap 3: 48b (len: 551)
+updated maxmap 4: 492 (len: 551)
+[1;94m[*] [0mFuzzing test case #299 (1656 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #300 (1656 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #301 (1656 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #302 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #303 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #304 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #305 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #306 (1657 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #307 (1657 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #308 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #309 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #310 (1657 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #311 (1657 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #312 (1657 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 493 (len: 551)
+updated maxmap 8: 496 (len: 557)
+updated maxmap 9: 49e (len: 557)
+updated maxmap 3: 48e (len: 551)
+updated maxmap 4: 496 (len: 551)
+updated maxmap 5: 496 (len: 551)
+updated maxmap 8: 497 (len: 556)
+updated maxmap 9: 4a1 (len: 556)
+updated maxmap 3: 48f (len: 551)
+updated maxmap 4: 497 (len: 551)
+updated maxmap 4: 499 (len: 555)
+updated maxmap 5: 4a1 (len: 555)
+[1;94m[*] [0mFuzzing test case #313 (1659 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+minimized maxmap 7: 48f (len: 549)
+[1;94m[*] [0mFuzzing test case #314 (1659 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #315 (1660 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #316 (1660 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #317 (1660 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #318 (1660 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 5: 4a3 (len: 561)
+updated maxmap 6: 4ad (len: 561)
+updated maxmap 7: 4b0 (len: 561)
+minimized maxmap 5: 4a3 (len: 557)
+updated maxmap 3: 494 (len: 555)
+updated maxmap 4: 49e (len: 555)
+updated maxmap 10: 4a1 (len: 555)
+[1;94m[*] [0mFuzzing test case #319 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 15: 438 (len: 542)
+[1;94m[*] [0mFuzzing test case #320 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 8: 499 (len: 555)
+minimized maxmap 9: 4a1 (len: 555)
+minimized maxmap 5: 4a3 (len: 556)
+[1;94m[*] [0mFuzzing test case #321 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #322 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #323 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #324 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #325 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #326 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #327 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #328 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #329 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 5: 4a8 (len: 562)
+updated maxmap 6: 4b2 (len: 562)
+updated maxmap 3: 495 (len: 555)
+updated maxmap 4: 49f (len: 555)
+[1;94m[*] [0mFuzzing test case #330 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #331 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #332 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #333 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 15: 439 (len: 542)
+[1;94m[*] [0mFuzzing test case #334 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #335 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #336 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #337 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #338 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 4ac (len: 561)
+updated maxmap 11: 4a9 (len: 561)
+updated maxmap 9: 4a3 (len: 563)
+updated maxmap 10: 4ad (len: 563)
+updated maxmap 11: 4b2 (len: 563)
+[1;94m[*] [0mFuzzing test case #339 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #340 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 490 (len: 549)
+[1;94m[*] [0mFuzzing test case #341 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #342 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #343 (1661 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #344 (1661 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 4b7 (len: 565)
+updated maxmap 8: 4ba (len: 565)
+[1;94m[*] [0mFuzzing test case #345 (1662 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #346 (1662 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 10: 4bb (len: 569)
+updated maxmap 11: 4b8 (len: 569)
+updated maxmap 7: 4bc (len: 566)
+[1;94m[*] [0mFuzzing test case #347 (1664 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #348 (1664 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 4bc (len: 570)
+updated maxmap 9: 4c6 (len: 570)
+updated maxmap 10: 4ce (len: 573)
+minimized maxmap 11: 4b8 (len: 565)
+minimized maxmap 8: 4bc (len: 566)
+updated maxmap 11: 4b9 (len: 565)
+updated maxmap 11: 4bd (len: 571)
+updated maxmap 11: 4c1 (len: 573)
+[1;94m[*] [0mFuzzing test case #349 (1679 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #350 (1679 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 8: 4c4 (len: 569)
+[1;94m[*] [0mFuzzing test case #351 (1679 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #352 (1679 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #353 (1679 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 4c7 (len: 573)
+[1;94m[*] [0mFuzzing test case #354 (1679 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 4c4 (len: 573)
+updated maxmap 11: 4c6 (len: 576)
+updated maxmap 9: 4ca (len: 573)
+updated maxmap 11: 4c9 (len: 573)
+updated maxmap 11: 4cb (len: 574)
+updated maxmap 9: 4d1 (len: 575)
+updated maxmap 11: 4d3 (len: 580)
+updated maxmap 9: 4d3 (len: 581)
+updated maxmap 10: 4db (len: 581)
+updated maxmap 8: 4ce (len: 581)
+[1;94m[*] [0mFuzzing test case #355 (1693 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #356 (1693 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #357 (1693 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #358 (1693 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #359 (1694 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 4cf (len: 581)
+[1;94m[*] [0mFuzzing test case #360 (1694 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 4d0 (len: 581)
+[1;94m[*] [0mFuzzing test case #361 (1694 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #362 (1694 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 4d7 (len: 580)
+updated maxmap 11: 4d8 (len: 580)
+updated maxmap 9: 4f0 (len: 588)
+updated maxmap 11: 4d9 (len: 580)
+updated maxmap 7: 4ce (len: 580)
+updated maxmap 11: 4da (len: 580)
+updated maxmap 8: 4ea (len: 590)
+updated maxmap 9: 4f1 (len: 590)
+updated maxmap 10: 4dc (len: 586)
+updated maxmap 0: 47a (len: 588)
+updated maxmap 2: 491 (len: 588)
+updated maxmap 3: 49b (len: 588)
+updated maxmap 4: 4a5 (len: 588)
+updated maxmap 5: 4af (len: 588)
+updated maxmap 6: 4b9 (len: 588)
+updated maxmap 10: 4e1 (len: 588)
+updated maxmap 11: 4ed (len: 588)
+minimized maxmap 0: 47a (len: 580)
+minimized maxmap 2: 491 (len: 580)
+minimized maxmap 3: 49b (len: 580)
+minimized maxmap 4: 4a5 (len: 580)
+minimized maxmap 5: 4af (len: 580)
+minimized maxmap 6: 4b9 (len: 580)
+updated maxmap 0: 47b (len: 580)
+updated maxmap 2: 492 (len: 580)
+updated maxmap 10: 4ee (len: 588)
+updated maxmap 3: 49c (len: 580)
+updated maxmap 4: 4a6 (len: 580)
+updated maxmap 5: 4b0 (len: 580)
+updated maxmap 6: 4ba (len: 580)
+updated maxmap 0: 488 (len: 588)
+updated maxmap 1: 493 (len: 588)
+updated maxmap 2: 49c (len: 588)
+updated maxmap 3: 4a6 (len: 588)
+updated maxmap 4: 4af (len: 588)
+updated maxmap 5: 4b9 (len: 588)
+updated maxmap 6: 4c3 (len: 588)
+updated maxmap 0: 48a (len: 587)
+updated maxmap 1: 496 (len: 587)
+updated maxmap 2: 49f (len: 587)
+updated maxmap 3: 4a8 (len: 587)
+updated maxmap 4: 4b2 (len: 587)
+updated maxmap 5: 4bc (len: 587)
+updated maxmap 6: 4c6 (len: 587)
+updated maxmap 7: 4cf (len: 587)
+[1;94m[*] [0mFuzzing test case #363 (1710 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #364 (1710 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 4f1 (len: 589)
+[1;94m[*] [0mFuzzing test case #365 (1710 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 4ec (len: 590)
+updated maxmap 9: 4f3 (len: 590)
+updated maxmap 9: 4f4 (len: 590)
+updated maxmap 8: 4ee (len: 591)
+updated maxmap 9: 4f6 (len: 591)
+updated maxmap 8: 4f7 (len: 598)
+updated maxmap 9: 4fb (len: 598)
+updated maxmap 10: 4f8 (len: 598)
+updated maxmap 11: 4f3 (len: 598)
+updated maxmap 10: 4fc (len: 596)
+updated maxmap 9: 500 (len: 598)
+updated maxmap 11: 4f6 (len: 598)
+updated maxmap 11: 4fd (len: 596)
+updated maxmap 8: 4fa (len: 598)
+updated maxmap 9: 502 (len: 598)
+updated maxmap 9: 504 (len: 598)
+updated maxmap 10: 505 (len: 598)
+updated maxmap 11: 4fe (len: 598)
+[1;94m[*] [0mFuzzing test case #366 (1722 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 506 (len: 598)
+updated maxmap 11: 4ff (len: 598)
+updated maxmap 10: 50c (len: 601)
+updated maxmap 11: 504 (len: 601)
+minimized maxmap 11: 504 (len: 598)
+updated maxmap 11: 505 (len: 598)
+[1;94m[*] [0mFuzzing test case #367 (1723 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 0: 48b (len: 587)
+updated maxmap 2: 4a0 (len: 587)
+updated maxmap 3: 4a9 (len: 587)
+updated maxmap 4: 4b3 (len: 587)
+updated maxmap 5: 4bd (len: 587)
+updated maxmap 6: 4c7 (len: 587)
+updated maxmap 1: 497 (len: 587)
+updated maxmap 3: 4aa (len: 587)
+[1;94m[*] [0mFuzzing test case #368 (1723 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 2: 4a1 (len: 587)
+updated maxmap 4: 4b4 (len: 587)
+updated maxmap 5: 4be (len: 587)
+updated maxmap 6: 4c8 (len: 587)
+updated maxmap 7: 4d0 (len: 587)
+updated maxmap 3: 4ab (len: 587)
+updated maxmap 4: 4b5 (len: 587)
+updated maxmap 5: 4bf (len: 587)
+updated maxmap 6: 4c9 (len: 587)
+updated maxmap 0: 48c (len: 587)
+updated maxmap 1: 498 (len: 587)
+updated maxmap 2: 4a2 (len: 587)
+updated maxmap 3: 4ac (len: 587)
+updated maxmap 4: 4b6 (len: 587)
+updated maxmap 5: 4c0 (len: 587)
+updated maxmap 6: 4ca (len: 587)
+updated maxmap 7: 4d1 (len: 587)
+updated maxmap 1: 499 (len: 587)
+updated maxmap 2: 4a3 (len: 587)
+updated maxmap 3: 4ad (len: 587)
+updated maxmap 4: 4b7 (len: 587)
+updated maxmap 5: 4c1 (len: 587)
+updated maxmap 6: 4cb (len: 587)
+updated maxmap 8: 50f (len: 600)
+updated maxmap 9: 50a (len: 600)
+updated maxmap 0: 48d (len: 587)
+updated maxmap 1: 49a (len: 587)
+updated maxmap 2: 4a4 (len: 587)
+updated maxmap 3: 4ae (len: 587)
+updated maxmap 4: 4b8 (len: 587)
+updated maxmap 5: 4c2 (len: 587)
+updated maxmap 6: 4cc (len: 587)
+updated maxmap 7: 4d2 (len: 587)
+updated maxmap 0: 490 (len: 587)
+updated maxmap 1: 49d (len: 587)
+updated maxmap 2: 4a7 (len: 587)
+updated maxmap 3: 4b1 (len: 587)
+updated maxmap 4: 4ef (len: 587)
+updated maxmap 5: 4ea (len: 587)
+updated maxmap 6: 4e0 (len: 587)
+updated maxmap 7: 4d9 (len: 587)
+updated maxmap 0: 491 (len: 587)
+updated maxmap 4: 4fd (len: 593)
+updated maxmap 3: 502 (len: 595)
+updated maxmap 5: 4eb (len: 587)
+updated maxmap 6: 4e1 (len: 587)
+updated maxmap 5: 4f4 (len: 589)
+[1;94m[*] [0mFuzzing test case #369 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #370 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 5: 4f5 (len: 589)
+[1;94m[*] [0mFuzzing test case #371 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #372 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #373 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #374 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #375 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #376 (1734 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 510 (len: 606)
+updated maxmap 9: 51d (len: 606)
+updated maxmap 15: 43a (len: 600)
+[1;94m[*] [0mFuzzing test case #377 (1735 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 49e (len: 587)
+updated maxmap 2: 4a8 (len: 587)
+[1;94m[*] [0mFuzzing test case #378 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #379 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #380 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #381 (1736 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #382 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #383 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #384 (1736 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #385 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 519 (len: 611)
+updated maxmap 9: 525 (len: 611)
+minimized maxmap 8: 519 (len: 606)
+updated maxmap 8: 51c (len: 606)
+[1;94m[*] [0mFuzzing test case #386 (1736 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 50d (len: 601)
+updated maxmap 11: 506 (len: 601)
+updated maxmap 11: 507 (len: 602)
+[1;94m[*] [0mFuzzing test case #387 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 5: 4fa (len: 591)
+[1;94m[*] [0mFuzzing test case #388 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 5: 4fb (len: 592)
+[1;94m[*] [0mFuzzing test case #389 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 51d (len: 606)
+[1;94m[*] [0mFuzzing test case #390 (1738 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #391 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #392 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #393 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #394 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 4: 500 (len: 601)
+updated maxmap 5: 511 (len: 601)
+updated maxmap 6: 50c (len: 601)
+[1;94m[*] [0mFuzzing test case #395 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #396 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 520 (len: 610)
+updated maxmap 9: 527 (len: 610)
+[1;94m[*] [0mFuzzing test case #397 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #398 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #399 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 7: 4da (len: 587)
+[1;94m[*] [0mFuzzing test case #400 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+minimized maxmap 6: 50c (len: 599)
+updated maxmap 4: 502 (len: 595)
+updated maxmap 7: 4db (len: 595)
+updated maxmap 3: 503 (len: 595)
+[1;94m[*] [0mFuzzing test case #401 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #402 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #403 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 50e (len: 602)
+updated maxmap 11: 50a (len: 603)
+[1;94m[*] [0mFuzzing test case #404 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #405 (1738 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #406 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #407 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 518 (len: 609)
+[1;94m[*] [0mFuzzing test case #408 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #409 (1738 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #410 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 5: 513 (len: 602)
+[1;94m[*] [0mFuzzing test case #411 (1738 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 6: 50f (len: 600)
+[1;94m[*] [0mFuzzing test case #412 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #413 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 51e (len: 609)
+updated maxmap 11: 520 (len: 609)
+[1;94m[*] [0mFuzzing test case #414 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #415 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #416 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #417 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #418 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 7: 50d (len: 600)
+[1;94m[*] [0mFuzzing test case #419 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #420 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #421 (1739 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #422 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #423 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+minimized maxmap 10: 51e (len: 607)
+updated maxmap 7: 50e (len: 600)
+[1;94m[*] [0mFuzzing test case #424 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #425 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #426 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #427 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #428 (1739 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #429 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #430 (1739 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #431 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #432 (1739 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #433 (1740 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 6: 520 (len: 608)
+updated maxmap 7: 51e (len: 608)
+[1;94m[*] [0mFuzzing test case #434 (1740 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #435 (1742 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #436 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 521 (len: 608)
+updated maxmap 7: 51f (len: 608)
+updated maxmap 5: 521 (len: 610)
+updated maxmap 6: 526 (len: 610)
+minimized maxmap 5: 521 (len: 608)
+updated maxmap 11: 521 (len: 608)
+updated maxmap 7: 521 (len: 608)
+updated maxmap 5: 522 (len: 608)
+[1;94m[*] [0mFuzzing test case #437 (1742 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #438 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 4: 503 (len: 595)
+[1;94m[*] [0mFuzzing test case #439 (1742 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #440 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #441 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #442 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #443 (1742 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 11: 52d (len: 614)
+[1;94m[*] [0mFuzzing test case #444 (1743 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 7: 522 (len: 608)
+[1;94m[*] [0mFuzzing test case #445 (1743 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 526 (len: 614)
+updated maxmap 9: 52e (len: 614)
+[1;94m[*] [0mFuzzing test case #446 (1743 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #447 (1743 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #448 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #449 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #450 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #451 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #452 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #453 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #454 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #455 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #456 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #457 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #458 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #459 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 527 (len: 614)
+[1;94m[*] [0mFuzzing test case #460 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #461 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #462 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #463 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #464 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #465 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #466 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #467 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #468 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 15: 43b (len: 600)
+[1;94m[*] [0mFuzzing test case #469 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #470 (1744 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #471 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #472 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #473 (1744 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 520 (len: 608)
+updated maxmap 10: 523 (len: 614)
+[1;94m[*] [0mFuzzing test case #474 (1745 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #475 (1745 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #476 (1745 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 6: 52e (len: 616)
+updated maxmap 7: 535 (len: 616)
+[1;94m[*] [0mFuzzing test case #477 (1746 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #478 (1746 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 52f (len: 616)
+updated maxmap 7: 536 (len: 616)
+updated maxmap 7: 539 (len: 620)
+updated maxmap 8: 540 (len: 620)
+updated maxmap 5: 534 (len: 616)
+updated maxmap 9: 546 (len: 624)
+updated maxmap 10: 54a (len: 624)
+updated maxmap 5: 535 (len: 616)
+updated maxmap 6: 534 (len: 619)
+updated maxmap 7: 53b (len: 619)
+minimized maxmap 6: 534 (len: 616)
+updated maxmap 0: 492 (len: 616)
+updated maxmap 7: 53e (len: 624)
+updated maxmap 8: 548 (len: 624)
+updated maxmap 10: 54e (len: 629)
+updated maxmap 11: 534 (len: 621)
+updated maxmap 4: 504 (len: 622)
+updated maxmap 6: 536 (len: 622)
+updated maxmap 7: 540 (len: 622)
+minimized maxmap 4: 504 (len: 616)
+minimized maxmap 6: 536 (len: 616)
+updated maxmap 11: 53f (len: 624)
+updated maxmap 1: 49f (len: 617)
+updated maxmap 2: 4a9 (len: 617)
+updated maxmap 4: 505 (len: 617)
+updated maxmap 6: 537 (len: 617)
+minimized maxmap 1: 49f (len: 616)
+minimized maxmap 2: 4a9 (len: 616)
+minimized maxmap 4: 505 (len: 616)
+updated maxmap 4: 506 (len: 616)
+updated maxmap 4: 508 (len: 616)
+updated maxmap 0: 493 (len: 616)
+updated maxmap 7: 541 (len: 623)
+updated maxmap 11: 543 (len: 624)
+updated maxmap 9: 547 (len: 624)
+updated maxmap 4: 50e (len: 616)
+[1;94m[*] [0mFuzzing test case #479 (1762 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 54f (len: 629)
+updated maxmap 9: 54e (len: 629)
+updated maxmap 10: 554 (len: 634)
+updated maxmap 11: 55b (len: 634)
+updated maxmap 10: 55a (len: 634)
+updated maxmap 8: 54d (len: 629)
+updated maxmap 8: 55f (len: 636)
+updated maxmap 9: 561 (len: 636)
+updated maxmap 11: 55f (len: 636)
+[1;94m[*] [0mFuzzing test case #480 (1764 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #481 (1764 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #482 (1764 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 6: 53a (len: 623)
+updated maxmap 7: 544 (len: 623)
+updated maxmap 6: 53b (len: 623)
+updated maxmap 7: 545 (len: 623)
+minimized maxmap 10: 55a (len: 631)
+updated maxmap 4: 542 (len: 623)
+updated maxmap 5: 547 (len: 623)
+updated maxmap 5: 54b (len: 628)
+updated maxmap 6: 553 (len: 628)
+updated maxmap 7: 553 (len: 628)
+[1;94m[*] [0mFuzzing test case #483 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #484 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 8: 563 (len: 635)
+updated maxmap 10: 55b (len: 631)
+[1;94m[*] [0mFuzzing test case #485 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 563 (len: 636)
+updated maxmap 11: 564 (len: 636)
+updated maxmap 9: 565 (len: 636)
+updated maxmap 11: 567 (len: 638)
+[1;94m[*] [0mFuzzing test case #486 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 10: 55c (len: 634)
+[1;94m[*] [0mFuzzing test case #487 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 7: 563 (len: 636)
+updated maxmap 8: 566 (len: 636)
+[1;94m[*] [0mFuzzing test case #488 (1772 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #489 (1772 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #490 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #491 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 55d (len: 634)
+updated maxmap 10: 55e (len: 634)
+[1;94m[*] [0mFuzzing test case #492 (1772 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #493 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 7: 564 (len: 636)
+updated maxmap 8: 567 (len: 636)
+updated maxmap 7: 565 (len: 636)
+updated maxmap 10: 565 (len: 636)
+[1;94m[*] [0mFuzzing test case #494 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #495 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #496 (1772 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #497 (1772 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #498 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #499 (1772 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 570 (len: 643)
+updated maxmap 9: 573 (len: 643)
+updated maxmap 10: 570 (len: 641)
+updated maxmap 8: 572 (len: 642)
+updated maxmap 11: 576 (len: 643)
+updated maxmap 10: 571 (len: 641)
+updated maxmap 10: 573 (len: 645)
+updated maxmap 11: 57c (len: 645)
+updated maxmap 9: 576 (len: 643)
+updated maxmap 10: 578 (len: 644)
+updated maxmap 9: 579 (len: 644)
+[1;94m[*] [0mFuzzing test case #500 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #501 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #502 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #503 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #504 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 543 (len: 624)
+minimized maxmap 4: 543 (len: 623)
+[1;94m[*] [0mFuzzing test case #505 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #506 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #507 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #508 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #509 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #510 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 582 (len: 647)
+updated maxmap 8: 579 (len: 645)
+updated maxmap 9: 57e (len: 651)
+updated maxmap 10: 588 (len: 651)
+[1;94m[*] [0mFuzzing test case #511 (1791 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #512 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #513 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 3: 51c (len: 631)
+[1;94m[*] [0mFuzzing test case #514 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #515 (1791 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 11: 587 (len: 651)
+updated maxmap 9: 57f (len: 651)
+updated maxmap 10: 589 (len: 651)
+updated maxmap 11: 58e (len: 653)
+updated maxmap 9: 582 (len: 654)
+updated maxmap 10: 58c (len: 654)
+minimized maxmap 9: 582 (len: 651)
+updated maxmap 9: 583 (len: 651)
+updated maxmap 8: 581 (len: 651)
+updated maxmap 9: 586 (len: 663)
+updated maxmap 10: 59c (len: 663)
+updated maxmap 11: 598 (len: 663)
+minimized maxmap 9: 586 (len: 651)
+updated maxmap 9: 589 (len: 651)
+updated maxmap 8: 583 (len: 654)
+updated maxmap 9: 590 (len: 654)
+updated maxmap 8: 588 (len: 651)
+updated maxmap 8: 589 (len: 651)
+updated maxmap 8: 590 (len: 658)
+updated maxmap 9: 595 (len: 658)
+minimized maxmap 8: 590 (len: 657)
+updated maxmap 8: 592 (len: 658)
+[1;94m[*] [0mFuzzing test case #516 (1804 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+[1;94m[*] [0mFuzzing test case #517 (1804 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 3: 53e (len: 624)
+[1;94m[*] [0mFuzzing test case #518 (1804 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #519 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #520 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #521 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #522 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #523 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #524 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #525 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #526 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #527 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #528 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #529 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #530 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #531 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #532 (1805 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #533 (1805 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 59f (len: 663)
+updated maxmap 10: 5a1 (len: 663)
+updated maxmap 8: 594 (len: 663)
+updated maxmap 9: 5a1 (len: 663)
+updated maxmap 10: 5a3 (len: 663)
+updated maxmap 8: 595 (len: 663)
+updated maxmap 10: 5a4 (len: 663)
+updated maxmap 11: 59d (len: 663)
+updated maxmap 8: 599 (len: 664)
+updated maxmap 9: 5a6 (len: 664)
+updated maxmap 10: 5a8 (len: 664)
+minimized maxmap 8: 599 (len: 663)
+minimized maxmap 9: 5a6 (len: 663)
+updated maxmap 13: 433 (len: 663)
+updated maxmap 14: 438 (len: 663)
+updated maxmap 15: 43e (len: 663)
+updated maxmap 8: 59a (len: 663)
+[1;94m[*] [0mFuzzing test case #534 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #535 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 59b (len: 663)
+updated maxmap 9: 5a7 (len: 663)
+updated maxmap 9: 5a8 (len: 663)
+updated maxmap 8: 59c (len: 663)
+[1;94m[*] [0mFuzzing test case #536 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #537 (1806 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #538 (1806 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #539 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #540 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 568 (len: 638)
+[1;94m[*] [0mFuzzing test case #541 (1806 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #542 (1806 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #543 (1806 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #544 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #545 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+updated maxmap 0: 4b0 (len: 622)
+updated maxmap 1: 4ba (len: 622)
+updated maxmap 2: 4c4 (len: 622)
+minimized maxmap 0: 4b0 (len: 618)
+minimized maxmap 1: 4ba (len: 618)
+minimized maxmap 2: 4c4 (len: 618)
+minimized maxmap 0: 4b0 (len: 616)
+minimized maxmap 1: 4ba (len: 616)
+minimized maxmap 2: 4c4 (len: 616)
+[1;94m[*] [0mFuzzing test case #546 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #547 (1806 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+updated maxmap 14: 439 (len: 663)
+updated maxmap 15: 43f (len: 663)
+updated maxmap 13: 434 (len: 663)
+updated maxmap 8: 59d (len: 665)
+updated maxmap 9: 5aa (len: 665)
+updated maxmap 10: 5ad (len: 668)
+updated maxmap 11: 5b2 (len: 668)
+[1;94m[*] [0mFuzzing test case #548 (1819 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #549 (1819 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 10: 5b3 (len: 669)
+updated maxmap 8: 59e (len: 665)
+updated maxmap 9: 5ab (len: 665)
+updated maxmap 10: 5b5 (len: 671)
+updated maxmap 8: 5a6 (len: 668)
+updated maxmap 9: 5b2 (len: 668)
+minimized maxmap 8: 5a6 (len: 665)
+updated maxmap 10: 5b7 (len: 670)
+updated maxmap 8: 5a7 (len: 665)
+updated maxmap 8: 5ac (len: 668)
+minimized maxmap 8: 5ac (len: 665)
+updated maxmap 8: 5ad (len: 665)
+updated maxmap 8: 5ae (len: 665)
+updated maxmap 8: 5b2 (len: 668)
+updated maxmap 8: 5b3 (len: 669)
+updated maxmap 10: 5b8 (len: 671)
+updated maxmap 11: 5b3 (len: 671)
+updated maxmap 8: 5b6 (len: 670)
+updated maxmap 9: 5b4 (len: 670)
+updated maxmap 9: 5bc (len: 673)
+updated maxmap 10: 5bf (len: 673)
+[1;94m[*] [0mFuzzing test case #550 (1827 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #551 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #552 (1827 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #553 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 569 (len: 638)
+updated maxmap 7: 56a (len: 638)
+[1;94m[*] [0mFuzzing test case #554 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #555 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #556 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #557 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #558 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #559 (1827 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #560 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #561 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #562 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #563 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #564 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #565 (1828 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #566 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #567 (1828 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #568 (1828 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #569 (1828 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 5b8 (len: 670)
+updated maxmap 8: 5b9 (len: 670)
+[1;94m[*] [0mFuzzing test case #570 (1829 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 8: 5bf (len: 679)
+updated maxmap 9: 5cc (len: 679)
+updated maxmap 10: 5ce (len: 679)
+minimized maxmap 8: 5bf (len: 673)
+updated maxmap 8: 5c2 (len: 674)
+[1;94m[*] [0mFuzzing test case #571 (1830 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #572 (1830 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #573 (1830 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 11: 5c5 (len: 679)
+updated maxmap 12: 5cf (len: 679)
+updated maxmap 13: 5d2 (len: 679)
+updated maxmap 8: 5c3 (len: 674)
+[1;94m[*] [0mFuzzing test case #574 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #575 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 5cf (len: 679)
+updated maxmap 9: 5ce (len: 679)
+updated maxmap 10: 5d1 (len: 679)
+updated maxmap 9: 5cf (len: 679)
+updated maxmap 10: 5d2 (len: 679)
+[1;94m[*] [0mFuzzing test case #576 (1831 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #577 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #578 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #579 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #580 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #581 (1831 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #582 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #583 (1831 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #584 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #585 (1831 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #586 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #587 (1831 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 5c5 (len: 680)
+updated maxmap 9: 5d2 (len: 680)
+updated maxmap 10: 5d4 (len: 680)
+minimized maxmap 8: 5c5 (len: 679)
+minimized maxmap 9: 5d2 (len: 679)
+updated maxmap 8: 5c6 (len: 679)
+updated maxmap 8: 5c9 (len: 679)
+updated maxmap 9: 5d6 (len: 679)
+updated maxmap 8: 5d0 (len: 679)
+updated maxmap 9: 5d8 (len: 681)
+updated maxmap 11: 5ca (len: 685)
+updated maxmap 12: 5d4 (len: 685)
+updated maxmap 13: 5de (len: 685)
+updated maxmap 14: 5e3 (len: 685)
+updated maxmap 15: 5e6 (len: 687)
+updated maxmap 8: 5d3 (len: 680)
+updated maxmap 11: 5cd (len: 684)
+updated maxmap 12: 5d7 (len: 684)
+updated maxmap 13: 5e1 (len: 684)
+minimized maxmap 8: 5d3 (len: 679)
+updated maxmap 15: 5e7 (len: 687)
+updated maxmap 10: 5e2 (len: 687)
+updated maxmap 11: 5e7 (len: 687)
+[1;94m[*] [0mFuzzing test case #588 (1839 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+updated maxmap 14: 5ea (len: 692)
+updated maxmap 15: 5f1 (len: 692)
+updated maxmap 12: 5d8 (len: 684)
+updated maxmap 13: 5e2 (len: 684)
+[1;94m[*] [0mFuzzing test case #589 (1840 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #590 (1840 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #591 (1840 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #592 (1841 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #593 (1841 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #594 (1841 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #595 (1841 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #596 (1841 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #597 (1841 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #598 (1841 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+updated maxmap 14: 5eb (len: 692)
+updated maxmap 15: 5f2 (len: 692)
+updated maxmap 12: 5e1 (len: 696)
+updated maxmap 13: 5eb (len: 696)
+updated maxmap 14: 5f5 (len: 696)
+updated maxmap 15: 5fb (len: 696)
+minimized maxmap 12: 5e1 (len: 692)
+minimized maxmap 13: 5eb (len: 692)
+updated maxmap 12: 5e2 (len: 692)
+updated maxmap 13: 5ec (len: 692)
+minimized maxmap 14: 5f5 (len: 695)
+updated maxmap 0: 5f4 (len: 697)
+[1;94m[*] [0mFuzzing test case #599 (1843 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #600 (1843 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #601 (1843 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #602 (1843 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 545 (len: 623)
+[1;94m[*] [0mFuzzing test case #603 (1843 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #604 (1843 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 5d9 (len: 687)
+updated maxmap 10: 5e3 (len: 687)
+updated maxmap 11: 5e8 (len: 687)
+updated maxmap 12: 5e7 (len: 687)
+[1;94m[*] [0mFuzzing test case #605 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #606 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+updated maxmap 14: 5f6 (len: 697)
+updated maxmap 15: 5ff (len: 697)
+[1;94m[*] [0mFuzzing test case #607 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 5ea (len: 695)
+updated maxmap 12: 5ee (len: 695)
+updated maxmap 13: 5ee (len: 695)
+minimized maxmap 11: 5ea (len: 690)
+minimized maxmap 12: 5ee (len: 690)
+minimized maxmap 11: 5ea (len: 688)
+updated maxmap 9: 5db (len: 687)
+updated maxmap 10: 5e5 (len: 687)
+[1;94m[*] [0mFuzzing test case #608 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #609 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #610 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+updated maxmap 13: 5ef (len: 698)
+updated maxmap 14: 5f9 (len: 698)
+updated maxmap 15: 602 (len: 698)
+minimized maxmap 13: 5ef (len: 697)
+minimized maxmap 14: 5f9 (len: 697)
+[1;94m[*] [0mFuzzing test case #611 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 56b (len: 638)
+updated maxmap 7: 56c (len: 638)
+updated maxmap 7: 572 (len: 641)
+[1;94m[*] [0mFuzzing test case #612 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #613 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #614 (1844 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+updated maxmap 0: 5f8 (len: 701)
+[1;94m[*] [0mFuzzing test case #615 (1845 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #616 (1845 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 4bd (len: 619)
+updated maxmap 2: 4c7 (len: 619)
+minimized maxmap 1: 4bd (len: 616)
+minimized maxmap 2: 4c7 (len: 616)
+[1;94m[*] [0mFuzzing test case #617 (1845 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #618 (1845 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 5: 54f (len: 630)
+updated maxmap 6: 556 (len: 630)
+minimized maxmap 5: 54f (len: 628)
+[1;94m[*] [0mFuzzing test case #619 (1845 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #620 (1845 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #621 (1845 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 6: 558 (len: 636)
+[1;94m[*] [0mFuzzing test case #622 (1858 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 5dd (len: 687)
+updated maxmap 10: 5e7 (len: 687)
+updated maxmap 9: 5de (len: 687)
+updated maxmap 10: 5e8 (len: 687)
+[1;94m[*] [0mFuzzing test case #623 (1859 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #624 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #625 (1859 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #626 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #627 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #628 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+updated maxmap 11: 5eb (len: 690)
+[1;94m[*] [0mFuzzing test case #629 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #630 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #631 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #632 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #633 (1859 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #634 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 559 (len: 636)
+[1;94m[*] [0mFuzzing test case #635 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #636 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #637 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #638 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 4c9 (len: 616)
+updated maxmap 2: 4d3 (len: 616)
+[1;94m[*] [0mFuzzing test case #639 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #640 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #641 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+updated maxmap 0: 5fc (len: 697)
+updated maxmap 0: 603 (len: 702)
+updated maxmap 13: 5f0 (len: 699)
+updated maxmap 14: 5fa (len: 699)
+minimized maxmap 13: 5f0 (len: 697)
+minimized maxmap 14: 5fa (len: 697)
+updated maxmap 13: 5f1 (len: 697)
+[1;94m[*] [0mFuzzing test case #642 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #643 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #644 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #645 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #646 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #647 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #648 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #649 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #650 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #651 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #652 (1859 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #653 (1860 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #654 (1860 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #655 (1860 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #656 (1860 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 4ca (len: 616)
+updated maxmap 2: 4d4 (len: 616)
+[1;94m[*] [0mFuzzing test case #657 (1861 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #658 (1861 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #659 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #660 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #661 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #662 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #663 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 13: 5f2 (len: 693)
+[1;94m[*] [0mFuzzing test case #664 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+updated maxmap 0: 606 (len: 701)
+updated maxmap 15: 603 (len: 701)
+[1;94m[*] [0mFuzzing test case #665 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #666 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #667 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 5df (len: 687)
+updated maxmap 10: 5e9 (len: 687)
+[1;94m[*] [0mFuzzing test case #668 (1862 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #669 (1863 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #670 (1863 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+updated maxmap 0: 607 (len: 701)
+updated maxmap 15: 604 (len: 701)
+updated maxmap 0: 60c (len: 707)
+updated maxmap 13: 5f7 (len: 707)
+updated maxmap 14: 600 (len: 707)
+updated maxmap 15: 60a (len: 707)
+minimized maxmap 13: 5f7 (len: 701)
+minimized maxmap 14: 600 (len: 701)
+[1;94m[*] [0mFuzzing test case #671 (1864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #672 (1864 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #673 (1864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 2: 552 (len: 630)
+updated maxmap 3: 54e (len: 630)
+[1;94m[*] [0mFuzzing test case #674 (1864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #675 (1864 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #676 (1864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #677 (1864 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #678 (1864 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #679 (1864 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #680 (1865 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #681 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #682 (1865 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #683 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #684 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 553 (len: 630)
+updated maxmap 3: 54f (len: 630)
+updated maxmap 2: 554 (len: 630)
+[1;94m[*] [0mFuzzing test case #685 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #686 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #687 (1865 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #688 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 5: 551 (len: 628)
+[1;94m[*] [0mFuzzing test case #689 (1866 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #690 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 573 (len: 641)
+[1;94m[*] [0mFuzzing test case #691 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 5: 552 (len: 628)
+[1;94m[*] [0mFuzzing test case #692 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+updated maxmap 0: 60d (len: 709)
+[1;94m[*] [0mFuzzing test case #693 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #694 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #695 (1866 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #696 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 12: 5ef (len: 690)
+[1;94m[*] [0mFuzzing test case #697 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #698 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #699 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #700 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #701 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+updated maxmap 7: 5bb (len: 709)
+[1;94m[*] [0mFuzzing test case #702 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #703 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 2: 556 (len: 632)
+updated maxmap 3: 551 (len: 632)
+minimized maxmap 3: 551 (len: 630)
+updated maxmap 1: 560 (len: 636)
+[1;94m[*] [0mFuzzing test case #704 (1866 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #705 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 0: 60e (len: 709)
+updated maxmap 13: 5f8 (len: 709)
+updated maxmap 14: 601 (len: 709)
+updated maxmap 15: 60b (len: 709)
+updated maxmap 7: 5bc (len: 709)
+[1;94m[*] [0mFuzzing test case #706 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #707 (1866 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 0: 60f (len: 709)
+updated maxmap 12: 5f0 (len: 709)
+updated maxmap 13: 5f9 (len: 709)
+updated maxmap 14: 602 (len: 709)
+updated maxmap 15: 60c (len: 709)
+updated maxmap 13: 5fa (len: 709)
+[1;94m[*] [0mFuzzing test case #708 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #709 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+updated maxmap 14: 603 (len: 709)
+updated maxmap 15: 60d (len: 709)
+updated maxmap 7: 5bf (len: 714)
+updated maxmap 11: 5ec (len: 714)
+[1;94m[*] [0mFuzzing test case #710 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #711 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #712 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #713 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #714 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 5d5 (len: 680)
+[1;94m[*] [0mFuzzing test case #715 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #716 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #717 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #718 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #719 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #720 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #721 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 11: 5ef (len: 693)
+[1;94m[*] [0mFuzzing test case #722 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #723 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #724 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #725 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #726 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #727 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #728 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #729 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #730 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #731 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 5d6 (len: 680)
+[1;94m[*] [0mFuzzing test case #732 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 561 (len: 636)
+[1;94m[*] [0mFuzzing test case #733 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #734 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #735 (1867 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #736 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 558 (len: 633)
+updated maxmap 3: 553 (len: 633)
+minimized maxmap 3: 553 (len: 632)
+minimized maxmap 2: 558 (len: 632)
+updated maxmap 3: 555 (len: 632)
+[1;94m[*] [0mFuzzing test case #737 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #738 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #739 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #740 (1867 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #741 (1868 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #742 (1869 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #743 (1869 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 5c0 (len: 714)
+updated maxmap 7: 5c1 (len: 715)
+minimized maxmap 7: 5c1 (len: 714)
+updated maxmap 10: 5ee (len: 714)
+updated maxmap 7: 5c2 (len: 714)
+[1;94m[*] [0mFuzzing test case #744 (1870 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #745 (1870 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #746 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #747 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #748 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #749 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 8: 5d8 (len: 714)
+updated maxmap 9: 5e1 (len: 714)
+[1;94m[*] [0mFuzzing test case #750 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #751 (1871 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #752 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #753 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #754 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #755 (1871 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 7: 5d8 (len: 720)
+updated maxmap 8: 5e7 (len: 720)
+updated maxmap 9: 62c (len: 720)
+updated maxmap 10: 636 (len: 720)
+updated maxmap 11: 604 (len: 720)
+minimized maxmap 7: 5d8 (len: 714)
+minimized maxmap 8: 5e7 (len: 714)
+minimized maxmap 11: 604 (len: 714)
+updated maxmap 11: 60f (len: 721)
+updated maxmap 7: 5d9 (len: 714)
+updated maxmap 8: 5e8 (len: 714)
+updated maxmap 7: 5da (len: 715)
+updated maxmap 8: 5e9 (len: 715)
+[1;94m[*] [0mFuzzing test case #756 (1873 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #757 (1873 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #758 (1873 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 3: 558 (len: 632)
+updated maxmap 2: 55a (len: 632)
+updated maxmap 2: 55b (len: 636)
+updated maxmap 3: 559 (len: 636)
+[1;94m[*] [0mFuzzing test case #759 (1879 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #760 (1880 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 62d (len: 720)
+updated maxmap 10: 637 (len: 720)
+updated maxmap 9: 63e (len: 727)
+updated maxmap 11: 62d (len: 727)
+updated maxmap 11: 636 (len: 720)
+updated maxmap 11: 637 (len: 720)
+[1;94m[*] [0mFuzzing test case #761 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #762 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #763 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 9: 646 (len: 727)
+updated maxmap 10: 63c (len: 727)
+updated maxmap 9: 647 (len: 727)
+updated maxmap 10: 63d (len: 727)
+[1;94m[*] [0mFuzzing test case #764 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 640 (len: 727)
+updated maxmap 11: 63d (len: 727)
+[1;94m[*] [0mFuzzing test case #765 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #766 (1881 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #767 (1881 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #768 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #769 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #770 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+updated maxmap 5: 553 (len: 628)
+[1;94m[*] [0mFuzzing test case #771 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #772 (1881 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+[1;94m[*] [0mFuzzing test case #773 (1881 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #774 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #775 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #776 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 641 (len: 727)
+updated maxmap 11: 63e (len: 727)
+[1;94m[*] [0mFuzzing test case #777 (1881 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 7: 5db (len: 715)
+updated maxmap 8: 5ea (len: 715)
+updated maxmap 6: 5eb (len: 715)
+updated maxmap 7: 5f8 (len: 715)
+updated maxmap 8: 601 (len: 715)
+updated maxmap 6: 5ec (len: 715)
+[1;94m[*] [0mFuzzing test case #778 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #779 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #780 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #781 (1882 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #782 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #783 (1882 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #784 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #785 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #786 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #787 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #788 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #789 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #790 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 562 (len: 636)
+[1;94m[*] [0mFuzzing test case #791 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #792 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #793 (1882 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 642 (len: 727)
+updated maxmap 11: 63f (len: 727)
+updated maxmap 10: 643 (len: 727)
+updated maxmap 11: 640 (len: 727)
+updated maxmap 10: 644 (len: 727)
+updated maxmap 11: 641 (len: 727)
+updated maxmap 9: 64a (len: 732)
+updated maxmap 10: 646 (len: 732)
+updated maxmap 8: 64f (len: 733)
+updated maxmap 11: 642 (len: 727)
+updated maxmap 10: 649 (len: 732)
+updated maxmap 11: 646 (len: 732)
+[1;94m[*] [0mFuzzing test case #794 (1885 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 54a (len: 625)
+[1;94m[*] [0mFuzzing test case #795 (1885 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #796 (1885 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+updated maxmap 4: 54b (len: 625)
+[1;94m[*] [0mFuzzing test case #797 (1885 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #798 (1885 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 10: 64a (len: 732)
+updated maxmap 11: 647 (len: 732)
+[1;94m[*] [0mFuzzing test case #799 (1886 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #800 (1886 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #801 (1886 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #802 (1886 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #803 (1886 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #804 (1886 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 650 (len: 733)
+updated maxmap 8: 652 (len: 738)
+updated maxmap 9: 65c (len: 738)
+updated maxmap 8: 657 (len: 736)
+[1;94m[*] [0mFuzzing test case #805 (1888 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 7: 5f9 (len: 715)
+updated maxmap 6: 5ee (len: 716)
+updated maxmap 7: 5fa (len: 716)
+minimized maxmap 6: 5ee (len: 715)
+minimized maxmap 7: 5fa (len: 715)
+[1;94m[*] [0mFuzzing test case #806 (1888 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #807 (1888 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #808 (1888 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #809 (1888 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #810 (1888 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #811 (1889 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+updated maxmap 6: 5ef (len: 715)
+[1;94m[*] [0mFuzzing test case #812 (1889 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 9: 65e (len: 739)
+updated maxmap 8: 660 (len: 739)
+minimized maxmap 9: 65e (len: 736)
+updated maxmap 10: 64d (len: 736)
+updated maxmap 9: 660 (len: 741)
+updated maxmap 10: 665 (len: 741)
+[1;94m[*] [0mFuzzing test case #813 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+updated maxmap 1: 563 (len: 636)
+updated maxmap 3: 55c (len: 636)
+[1;94m[*] [0mFuzzing test case #814 (1893 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #815 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #816 (1893 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #817 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 6: 5f3 (len: 715)
+updated maxmap 7: 5fc (len: 715)
+updated maxmap 6: 5f4 (len: 715)
+updated maxmap 7: 5fd (len: 715)
+[1;94m[*] [0mFuzzing test case #818 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #819 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #820 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #821 (1893 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #822 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #823 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #824 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #825 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #826 (1893 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 9: 66d (len: 746)
+updated maxmap 10: 66f (len: 746)
+[1;94m[*] [0mFuzzing test case #827 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #828 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #829 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 661 (len: 746)
+updated maxmap 9: 66e (len: 746)
+updated maxmap 10: 670 (len: 746)
+updated maxmap 8: 662 (len: 746)
+updated maxmap 9: 66f (len: 746)
+updated maxmap 10: 671 (len: 746)
+updated maxmap 10: 680 (len: 752)
+updated maxmap 8: 663 (len: 747)
+[1;94m[*] [0mFuzzing test case #830 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #831 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 564 (len: 640)
+updated maxmap 2: 55f (len: 640)
+[1;94m[*] [0mFuzzing test case #832 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #833 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 11: 67b (len: 752)
+updated maxmap 8: 666 (len: 756)
+updated maxmap 9: 672 (len: 756)
+updated maxmap 10: 684 (len: 756)
+minimized maxmap 8: 666 (len: 752)
+updated maxmap 9: 673 (len: 752)
+updated maxmap 8: 667 (len: 752)
+[1;94m[*] [0mFuzzing test case #834 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 8: 668 (len: 756)
+updated maxmap 9: 686 (len: 756)
+updated maxmap 10: 685 (len: 756)
+[1;94m[*] [0mFuzzing test case #835 (1894 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #836 (1894 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #837 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #838 (1894 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 11: 67d (len: 753)
+minimized maxmap 11: 67d (len: 752)
+[1;94m[*] [0mFuzzing test case #839 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #840 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #841 (1896 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #842 (1896 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #843 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #844 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 2: 560 (len: 640)
+[1;94m[*] [0mFuzzing test case #845 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #846 (1896 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 669 (len: 756)
+updated maxmap 9: 687 (len: 756)
+[1;94m[*] [0mFuzzing test case #847 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #848 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #849 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #850 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #851 (1897 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #852 (1897 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #853 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #854 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+updated maxmap 1: 567 (len: 640)
+updated maxmap 2: 562 (len: 640)
+updated maxmap 1: 568 (len: 640)
+updated maxmap 2: 563 (len: 640)
+[1;94m[*] [0mFuzzing test case #855 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+[1;94m[*] [0mFuzzing test case #856 (1897 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #857 (1897 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #858 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #859 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #860 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #861 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 68b (len: 759)
+updated maxmap 10: 686 (len: 759)
+[1;94m[*] [0mFuzzing test case #862 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #863 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #864 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #865 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #866 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #867 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 10 level20_3/ijon_max/10
+updated maxmap 9: 68c (len: 759)
+updated maxmap 10: 687 (len: 759)
+[1;94m[*] [0mFuzzing test case #868 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #869 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #870 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #871 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #872 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #873 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #874 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #875 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #876 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #877 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #878 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 6: 607 (len: 722)
+updated maxmap 7: 60e (len: 722)
+minimized maxmap 6: 607 (len: 715)
+minimized maxmap 7: 60e (len: 715)
+[1;94m[*] [0mFuzzing test case #879 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #880 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #881 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #882 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #883 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 8: 68b (len: 772)
+updated maxmap 9: 698 (len: 772)
+updated maxmap 10: 69c (len: 772)
+updated maxmap 11: 69c (len: 772)
+minimized maxmap 8: 68b (len: 759)
+updated maxmap 8: 68c (len: 759)
+[1;94m[*] [0mFuzzing test case #884 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #885 (1898 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #886 (1898 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+updated maxmap 8: 68d (len: 759)
+updated maxmap 8: 694 (len: 761)
+[1;94m[*] [0mFuzzing test case #887 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 8 level20_3/ijon_max/8
+[1;94m[*] [0mFuzzing test case #888 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #889 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #890 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #891 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 55d (len: 636)
+updated maxmap 3: 55e (len: 636)
+[1;94m[*] [0mFuzzing test case #892 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #893 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #894 (1899 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+updated maxmap 10: 69d (len: 772)
+updated maxmap 11: 69d (len: 772)
+updated maxmap 10: 69f (len: 772)
+updated maxmap 11: 69e (len: 772)
+updated maxmap 9: 699 (len: 772)
+updated maxmap 9: 69d (len: 772)
+updated maxmap 7: 6ba (len: 780)
+updated maxmap 8: 6b3 (len: 780)
+updated maxmap 9: 6ad (len: 780)
+[1;94m[*] [0mFuzzing test case #895 (1910 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 6 level20_3/ijon_max/6
+[1;94m[*] [0mFuzzing test case #896 (1910 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #897 (1910 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 7: 6bb (len: 780)
+[1;94m[*] [0mFuzzing test case #898 (1911 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #899 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #900 (1911 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #901 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+updated maxmap 7: 6cc (len: 784)
+updated maxmap 8: 6b9 (len: 784)
+updated maxmap 9: 6b2 (len: 784)
+minimized maxmap 8: 6b9 (len: 780)
+minimized maxmap 9: 6b2 (len: 780)
+[1;94m[*] [0mFuzzing test case #902 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #903 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #904 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+[1;94m[*] [0mFuzzing test case #905 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 9 level20_3/ijon_max/9
+[1;94m[*] [0mFuzzing test case #906 (1911 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+updated maxmap 7: 6cd (len: 784)
+updated maxmap 7: 6ce (len: 784)
+updated maxmap 8: 6ba (len: 784)
+updated maxmap 9: 6b3 (len: 784)
+[1;94m[*] [0mFuzzing test case #907 (1912 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #908 (1912 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #909 (1912 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #910 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #911 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 561 (len: 638)
+[1;94m[*] [0mFuzzing test case #912 (1913 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #913 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #914 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #915 (1913 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #916 (1913 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #917 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 2 level20_3/ijon_max/2
+[1;94m[*] [0mFuzzing test case #918 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #919 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #920 (1913 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #921 (1913 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #922 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #923 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #924 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #925 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 15 level20_3/ijon_max/15
+[1;94m[*] [0mFuzzing test case #926 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 3 level20_3/ijon_max/3
+updated maxmap 3: 562 (len: 638)
+[1;94m[*] [0mFuzzing test case #927 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 1 level20_3/ijon_max/1
+[1;94m[*] [0mFuzzing test case #928 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #929 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #930 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 7 level20_3/ijon_max/7
+[1;94m[*] [0mFuzzing test case #931 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #932 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #933 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #934 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 5 level20_3/ijon_max/5
+[1;94m[*] [0mFuzzing test case #935 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #936 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #937 (1913 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+[1;94m[*] [0mFuzzing test case #938 (1913 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 13 level20_3/ijon_max/13
+[1;94m[*] [0mFuzzing test case #939 (1914 total, 0 uniq crashes found)...[0m
+[1;94m[*] [0mFuzzing test case #940 (1914 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 4 level20_3/ijon_max/4
+[1;94m[*] [0mFuzzing test case #941 (1914 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 0 level20_3/ijon_max/0
+[1;94m[*] [0mFuzzing test case #942 (1914 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #943 (1914 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 11 level20_3/ijon_max/11
+[1;94m[*] [0mFuzzing test case #944 (1916 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 12 level20_3/ijon_max/12
+[1;94m[*] [0mFuzzing test case #945 (1916 total, 0 uniq crashes found)...[0m
+scheduled max input!!!!
+schedule: 14 level20_3/ijon_max/14
+[1;94m[*] [0mFuzzing test case #946 (1916 total, 0 uniq crashes found)...[0m
+scheduled normal input!!!!
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m
+[1;93m[!] [0mStopped during the first cycle, results may be incomplete.
+    (For info on resuming, see docs/README.)
+[1;92m[+] [0mWe're done here. Have a nice day!
+[0m
+srun: error: ubuntu-test: task 0: Exited with exit code 124
