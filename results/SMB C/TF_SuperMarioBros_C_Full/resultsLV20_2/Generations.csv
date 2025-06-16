@@ -1,0 +1,9 @@
+ID;Generation Number;Generation Size;DD Size;Number of DD;Runtime;Tests per Minute;Average Test Execution Time;Average DD Runtime;Total primary score increase;Total secondary increase
+0;64;0;0;0;                          0ns;-nan;                          0ns;                          0ns;0.000000;0.000000
+1;66;10000;173379;10;   106m 15s 448ms 171μs 586ns;1725.920000;            330ms 100μs 622ns;    48m 33s 652ms 262μs 860ns;0.000000;0.000000
+4;1a3c4d;9581;6065;10;    56m 56s 201ms 255μs 619ns;274.812646;         1s 568ms  61μs  98ns;     1m 38s 660ms 796μs  74ns;2163.000000;0.000000
+6;335d66;9606;158087;10;   171m 59s  98ms 236μs  64ns;975.053784;            535ms 545μs 298ns;    42m  3s 424ms 367μs 352ns;2163.000000;0.000000
+7;46eced;9561;95398;10;   103m 54s 447ms 303μs 174ns;1010.192493;            470ms 736μs 514ns;    27m 16s 826ms 625μs  99ns;2163.000000;0.000000
+3;16ac3c;10000;30570;10;    14m 35s 259ms 218μs 430ns;2781.942857;            193ms 583μs 918ns;     9m 38s 863ms 630μs 756ns;1649.000000;0.000000
+2;e6d1c;10000;88472;10;    52m 31s  12ms 858μs 353ns;1875.061885;            300ms 651μs 468ns;    17m 42s  97ms 400μs 666ns;1536.000000;0.000000
+5;226a39;9556;107455;10;   115m  5s 610ms 851μs 816ns;1016.750181;            498ms 929μs 818ns;    36m 49s 660ms 830μs  56ns;2163.000000;0.000000

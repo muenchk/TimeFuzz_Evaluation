@@ -1,0 +1,3 @@
+ID;TotalTests;Skipped;Prefix;Approx;BatchCount;Level;Total Reduction %: Length;Total Reduction %: Primary;Total Reduction %: Secondary;Runtime;Average Test Runtime
+-;2905;4382;2133;5882;29;191502;-nan;100.893856;-nan;     3m 51s  22ms 176μs 815ns;         2s 496ms 465μs  71ns
+-;552080;832653;405350;1117617;5615;191502;-nan;19169.832705;-nan;   731m 34s 213ms 594μs 961ns;     7m 54s 328ms 363μs 597ns
