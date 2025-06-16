@@ -1,0 +1,4 @@
+ID;Generation Number;Generation Size;DD Size;Number of DD;Runtime;Tests per Minute;Average Test Execution Time;Average DD Runtime;Total primary score increase;Total secondary increase
+0;64;0;0;0;                          0ns;-nan;                          0ns;                          0ns;0.000000;0.000000
+1;66;2000;975;10;        29s 731ms 310μs 183ns;6155.172414;                        -25289544120ns;        12s 287ms 513μs  61ns;0.000000;0.000000
+2;2815;580;771;23;        30s 766ms 587μs 463ns;2702.000000;                        -58478413381ns;         3s 341ms 842μs 856ns;2234.000000;0.000000

@@ -1,0 +1,2 @@
+ID;Parent ID;Generation ID;Derived Inputs;Derived Fails;Flags;Generation Time;Generation Length;Trimmed Length;Execution Time;Primary Score;Relative Primary Score;Secondary Score;Relative Secondary Score;Exit Code;Exit Reason;Result;Individual Primary;Individual Secondary;Retries;Test Number
+53d218;53c50c;53caad;0;9;0000000000000078;   105m 57s 606ms 412μs 121ns;108;28;            200ms 530μs  93ns;2065.000000;0.013559;0.000000;inf;256;1;Passing;;;0;851027

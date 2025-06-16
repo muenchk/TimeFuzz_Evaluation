@@ -1,0 +1,10 @@
+ID;Parent ID;Generation ID;Derived Inputs;Derived Fails;Flags;Generation Time;Generation Length;Trimmed Length;Execution Time;Primary Score;Relative Primary Score;Secondary Score;Relative Secondary Score;Exit Code;Exit Reason;Result;Individual Primary;Individual Secondary;Retries;Test Number
+2642;1c75;255b;0;60;4000000000000078;        25s 243ms 497μs 499ns;188;35;            373ms 827μs 925ns;3381.000000;0.010352;0.000000;inf;256;1;Passing;;;0;2893
+26bf;1bf9;255b;0;53;4000000000000038;        25s 369ms  49μs  47ns;133;36;            388ms 288μs 150ns;3349.000000;0.010749;0.000000;inf;256;1;Passing;;;0;2933
+280f;6a;255b;0;31;4000000000000078;        25s 930ms 164μs 599ns;196;40;            235ms 129μs 277ns;0.000000;inf;0.000000;inf;256;1;Passing;;;0;3045
+2879;1c75;255b;0;8;4000000000000078;        26s 570ms 609μs 788ns;0;36;            308ms 825μs 443ns;0.000000;inf;0.000000;inf;256;1;Passing;;;0;3079
+4ea5;1e04;255b;0;26;4000000000000078;        44s  46ms  59μs 571ns;87;40;            326ms 760μs 696ns;3349.000000;0.011944;0.000000;inf;256;1;Passing;;;0;4725
+73c5;1ff9;255b;0;6;4000000000000078;        54s 923ms 858μs 512ns;243;41;            373ms 923μs 599ns;0.000000;inf;0.000000;inf;256;1;Passing;;;0;5542
+8a01;73c5;255b;0;0;4000000000000080;        59s 724ms 513μs  52ns;0;-1;            298ms 851μs 331ns;0.000000;-nan;0.000000;-nan;256;1;Passing;;;0;5858
+89fc;73c5;255b;0;0;4000000000000088;        59s 724ms 345μs 200ns;0;32;            259ms 446μs 402ns;3572.000000;0.008959;0.000000;inf;256;1;Passing;;;0;5856
+8a00;73c5;255b;0;13;4000000000000088;        59s 724ms 585μs 859ns;0;34;            337ms 542μs 281ns;3452.000000;0.009849;0.000000;inf;256;1;Passing;;;0;5857

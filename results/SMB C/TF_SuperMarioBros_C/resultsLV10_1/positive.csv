@@ -1,0 +1,5 @@
+ID;Parent ID;Generation ID;Derived Inputs;Derived Fails;Flags;Generation Time;Generation Length;Trimmed Length;Execution Time;Primary Score;Relative Primary Score;Secondary Score;Relative Secondary Score;Exit Code;Exit Reason;Result;Individual Primary;Individual Secondary;Retries;Test Number
+867e;6853;73cd;0;130;4000000000000078;     2m 50s 852ms 325μs  90ns;141;54;            367ms  30μs 270ns;3110.000000;0.017363;0.000000;inf;256;1;Passing;;;0;9890
+8c96;867e;73cd;0;0;4000000000000080;     3m     936ms 167μs 513ns;0;-1;            357ms 432μs 830ns;3110.000000;0.000000;0.000000;-nan;256;1;Passing;;;0;10397
+8c92;867e;73cd;0;0;4000000000000088;     3m     936ms  53μs 802ns;0;-1;            388ms 716μs 722ns;3110.000000;0.000000;0.000000;-nan;256;1;Passing;;;0;10396
+8c8c;867e;73cd;0;0;4000000000000080;     3m     935ms 880μs  84ns;0;-1;            464ms 237μs 117ns;3110.000000;0.000000;0.000000;-nan;256;1;Passing;;;0;10395
