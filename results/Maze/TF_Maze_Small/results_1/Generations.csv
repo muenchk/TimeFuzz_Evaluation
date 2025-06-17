@@ -1,0 +1,10 @@
+ID;Generation Number;Generation Size;DD Size;Number of DD;Runtime;Tests per Minute;Average Test Execution Time;Average DD Runtime;Total primary score increase;Total secondary increase
+6;a595;200;5;5;            344ms 259μs 314ns;inf;              7ms 135μs 262ns;              9ms 160μs 920ns;20.000000;0.000000
+8;b95d;200;28;13;            441ms 694μs 879ns;inf;              8ms 278μs 706ns;             38ms  75μs  83ns;28.000000;0.000000
+4;88aa;200;0;5;            235ms 385μs 613ns;inf;              4ms 903μs 919ns;                   39μs 901ns;14.000000;0.000000
+2;6df0;200;3;5;            193ms 466μs 407ns;inf;              3ms 601μs 257ns;              2ms 368μs 301ns;8.000000;0.000000
+7;afe9;200;0;5;            362ms 897μs 661ns;inf;              8ms  19μs 590ns;                   49μs 998ns;24.000000;0.000000
+5;97f6;200;8;5;            305ms  18μs 107ns;inf;              5ms 993μs 348ns;              9ms  11μs   2ns;17.000000;0.000000
+3;7cc6;200;1;5;            207ms  73μs 467ns;inf;              4ms 222μs 488ns;              1ms 218μs 441ns;10.000000;0.000000
+0;64;0;0;0;                          0ns;-nan;                          0ns;                          0ns;0.000000;0.000000
+1;66;186;2;5;            464ms 142μs  53ns;inf;              3ms 448μs  81ns;              1ms 910μs 107ns;0.000000;0.000000
