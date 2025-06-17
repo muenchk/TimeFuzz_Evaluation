@@ -1,0 +1,2 @@
+ID;Generation Number;Generation Size;DD Size;Number of DD;Runtime;Tests per Minute;Average Test Execution Time;Average DD Runtime;Total primary score increase;Total secondary increase
+NONE;NONE;4049;52431;4;   408m 49s 481ms  12μs 994ns;-nan;   388m 27s 656ms 280μs 838ns;     1m 50s 357ms 914μs 258ns;1046.166667;171.666667
