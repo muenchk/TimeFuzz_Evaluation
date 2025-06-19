@@ -1,0 +1,2 @@
+Number of Generations;Number of DeltaDebugging;Generated Tests;DD Tests;Prefix Excluded Tests;Approximation Excluded Tests;Total Tests;Negative Tests;Positive Tests;Unfinished Tests;Undefined Tests;Runtime;Average Tests per Minute;Natural Exit;LastInput Exit;Terminated Exit;Timeout Exit;FragmentTimeout Exit;Memory Exit;Pipe Exit;InitError Exit;Repeat Exit
+5;378;4000;1416881;959113;0;1420881;0;270546;1150335;0;    60m     181ms 714μs 579ns;23681.350000;1421073;0;0;0;0;0;0;0;0
