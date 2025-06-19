@@ -1,0 +1,6 @@
+ID;TotalTests;Skipped;Prefix;Approx;BatchCount;Level;Original: Length;Reduced: Length;Total Reduction %: Length;Original: Primary;Reduced: Primary;Total Reduction %: Primary;Original: Secondary;Reduced: Secondary;Total Reduction %: Secondary;Runtime;Average Test Runtime
+7584d;30368;0;0;0;181;115;6448.000000;115.000000;1.783499;0.000000;0.000000;-nan;0.000000;0.000000;-nan;     1m 34s 310ms 666μs  12ns;     1m  3s 145ms 624μs 833ns
+67421;33314;0;0;0;191;117;6538.000000;118.000000;1.804833;0.000000;0.000000;-nan;0.000000;0.000000;-nan;     2m 30s 480ms 229μs 240ns;     1m 10s 622ms 135μs 539ns
+1834d;40174;0;0;0;190;125;6514.000000;125.000000;1.918944;0.000000;0.000000;-nan;0.000000;0.000000;-nan;     3m 38s 145ms 542μs  85ns;     1m 25s 377ms 335μs  75ns
+18013;34506;0;0;0;183;121;6472.000000;121.000000;1.869592;0.000000;0.000000;-nan;0.000000;0.000000;-nan;     4m 31s 173ms 965μs 241ns;     1m 13s 380ms 525μs 758ns
+17d87;44196;0;0;0;203;123;6506.000000;123.000000;1.890563;0.000000;0.000000;-nan;0.000000;0.000000;-nan;     4m 55s 729ms 242μs 302ns;     1m 46s 219ms 716μs 165ns
